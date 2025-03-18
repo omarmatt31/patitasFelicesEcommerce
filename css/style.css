@@ -1,4 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 .hoverDropdawn:hover {
-    color: rgb(43, 255, 15);
-    background-color: #8600d4;
+  color: rgb(43, 255, 15);
+  background-color: #02eeee41;
+}
+
+.background-color {
+  background-color: #6d6e75;
+}
+
+.color-gradient {
+  font-family: "Pacifico", cursive;
+  background: linear-gradient(to right, #a7c7e7, #b8e2c8, #f8c8c4, #fff4e6);
+  background-clip: text;
+  color: transparent;
+}
+
+.color {
+  color: white;
+}
+
+.color-carrito {
+  color: greenyellow;
+}
+
+.focus {
+  color: aqua;
+}
+
+a:hover {
+  color: aqua !important;
 }
