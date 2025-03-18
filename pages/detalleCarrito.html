@@ -12,16 +12,16 @@
 </head>
 <body>
     <header></header>
-    <main class="bg-info">
-        <section class="container">
-            <h4>CARRITO DE COMPRAS</h4>
+    <main class="bg-info py-3">
+        <section class="container my-4">
+            <h4 class="text-center my-3">CARRITO DE COMPRAS</h4>
             <div class="row justify-content-center">
-                <article class="col-12 col-md-8 col-lg-8 border border-danger">
-                    <div class="bg-white  rounded-3 border  p-2">
-                        <table class="table bg-danger">
+                <article class="col-12 col-md-12 col-lg-8 my-2">
+                    <div class="bg-white  rounded-3 border  p-2 table-responsive">
+                        <table class="table">
                             <thead>
                               <tr>
-                                <th scope="col">Producto</th>
+                                <th scope="col" class="text-start">Producto</th>
                                 <th scope="col">Cantidad</th>
                                 <th scope="col">Precio</th>
                                 <th scope="col"></th>
@@ -29,8 +29,8 @@
                             </thead>
                             <tbody>
                               <tr>
-                                <th scope="row" class="fw-normal"><img class="contenedorImagenCarrito" src="../img/150019.webp" alt="">Detalle del producto 1</th>
-                                <td class="align-middle">"2"</td>
+                                <th scope="row" class="text-start d-flex align-items-center"><img class="contenedorImagenCarrito" src="../img/150019.webp" alt=""><p class="align-middle">Detalle del producto 1</p></th>
+                                <td class="align-middle">2</td>
                                 <td class="align-middle">$24.900</td>
                                 <td class="align-middle">
                                     <button class="btn btn-danger rounded-1">
@@ -39,8 +39,8 @@
                                 </td>
                               </tr>
                               <tr>
-                                <th scope="row" class="fw-normal"><img class="contenedorImagenCarrito" src="../img/150019.webp" alt="">Detalle del producto 1</th>
-                                <td class="align-middle">"2"</td>
+                                <th scope="row" class="text-start d-flex align-items-center"><img class="contenedorImagenCarrito" src="../img/150019.webp" alt=""><p class="align-middle">Detalle del producto 2</p></th>
+                                <td class="align-middle">2</td>
                                 <td class="align-middle">$24.900</td>
                                 <td class="align-middle">
                                     <button class="btn btn-danger rounded-1">
@@ -49,8 +49,8 @@
                                 </td>
                               </tr>
                               <tr>
-                                <th scope="row" class="fw-normal"><img class="contenedorImagenCarrito" src="../img/150019.webp" alt="">Detalle del producto 1</th>
-                                <td class="align-middle">"2"</td>
+                                <th scope="row" class="text-start d-flex align-items-center"><img class="contenedorImagenCarrito" src="../img/150019.webp" alt=""><p class="align-middle">Detalle del producto 3</p></th>
+                                <td class="align-middle">2</td>
                                 <td class="align-middle">$24.900</td>
                                 <td class="align-middle">
                                     <button class="btn btn-danger rounded-1">
@@ -62,29 +62,29 @@
                           </table>  
                     </div>  
                 </article>
-                <article class="col-12 col-md-4 col-lg-4 border border-danger">
+                <article class="col-12 col-md-12 col-lg-4 my-2">
                     <div class="bg-white  rounded-3 border  p-2 d-flex flex-column align-items-center">
                         <table class="table w-100">
                             <thead>
                               <tr>
-                                <th scope="col" class="fw-normal">Productos</th>
+                                <th scope="col" class="fw-normal text-start">Productos</th>
                                 <th scope="col" class="text-end">$74.700</th>
                               </tr>
                             </thead>
                             <tbody>
                               <tr>
-                                <th scope="row" class="fw-normal">Envio</th>
+                                <th scope="row" class="fw-normal text-start">Envio</th>
                                 <td class="fw-bold text-end">Gratis</td>
                               </tr>
 
                               <tr>
-                                <th scope="row">TOTAL</th>
+                                <th scope="row" class="text-start">TOTAL</th>
                                 <td class="fw-bold text-end">$74.700</td>
                               </tr>
                             </tbody>
                           </table>
-                          <button type="button" class="btn btn-success fw-bold w-75 mt-3">Finalizar Compra</button>
-                          <button type="button" class="btn btn-outline-primary fw-bold w-75 mt-3">Seguir Comprando</button>
+                          <a href="../pages/error404.html" class="btn btn-success fw-bold w-75 mt-3">Finalizar Compra</a>
+                          <a href="../index.html" class="btn btn-outline-primary fw-bold w-75 mt-3">Seguir Comprando</a>
                     </div>
                 </article>
             </div>
