@@ -26,7 +26,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-info">
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html">Patitas Felices</a>
           <button
@@ -41,9 +41,9 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a class="nav-link active" aria-current="page" href="./index.html"
                   >Inicio</a
                 >
               </li>
@@ -65,32 +65,51 @@
                 >
                   Otros
                 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Aves</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li><a class="dropdown-item" href="#">Peces</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li><a class="dropdown-item" href="#">Insectos</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li><a class="dropdown-item" href="#">Tortugas</a></li>
+                <ul class="dropdown-menu bg-info">
+                  <li>
+                    <a class="dropdown-item hoverDropdawn" href="./pages/categoriaAves.html"
+                      >Aves</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item hoverDropdawn" href="./pages/categoriaPeces.html"
+                      >Peces</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item hoverDropdawn"
+                      href="./pages/categoriaInsectos.html"
+                      >Insectos</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item hoverDropdawn"
+                      href="./pages/categoriaTortugas.html"
+                      >Tortugas</a
+                    >
+                  </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/gatos.html">Contacto</a>
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/gatos.html">Sobre Nosotros</a>
+                <a class="nav-link" href="./pages/sobreNosotros.html"
+                  >Sobre Nosotros</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/gatos.html"
+                <a class="nav-link" href="./pages/preguntasFrecuentes.html"
                   >Preguntas Frecuentes</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/gatos.html">Registro</a>
+                <a class="nav-link" href="./pages/registro.html">Registro</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/gatos.html">Iniciar Sesión</a>
+                <a class="nav-link" href="./pages/login.html">Iniciar Sesión</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -104,9 +123,11 @@
                 Buscar
               </button>
             </form>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href=""><i class="bi bi-cart4"></i></a>
+                <a class="nav-link" href="./pages/detalleCarrito.html"
+                  ><i class="bi bi-cart4 fs-4"></i
+                ></a>
               </li>
             </ul>
           </div>
