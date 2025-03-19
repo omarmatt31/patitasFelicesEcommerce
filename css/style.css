@@ -40,7 +40,22 @@ a:hover {
 .table th {
   text-align: center;
 }
+.color-footer{
+ background-color: #6d6e75;
+
+}
 
 main {
   background-color: #fff4e6;
+  flex-grow: 1;
+} 
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
+.footer-logo img {
+  max-width: 200px; 
+}
+
+
