@@ -36,3 +36,18 @@
   background-clip: text;
   color: transparent;
 }
+
+.contenedorImagenCarrito {
+  height: 70px;
+  width: 70px;
+}
+
+.table td,
+.table th {
+  text-align: center;
+}
+
+main {
+  background-color: #fff4e6;
+}
+
