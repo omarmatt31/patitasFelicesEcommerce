@@ -26,7 +26,9 @@
       <h1 class="text-center mb-5">Crea tu Cuenta</h1>
       <section class="container">
         <article class="row">
-          <div class="col-12 col-md-6"></div>
+          <div class="col-12 col-md-6">
+            <img src="../img/banner-principalpatitasfelices.png" alt="Perro feliz saltando con su collar" class="img-fluid">
+          </div>
           <div class="col-12 col-md-6">
             <form>
               <div class="mb-3">
@@ -44,7 +46,7 @@
                   aria-label="Nombre completo"
                 />
               </div>
-            
+
               <div class="mb-3">
                 <label for="Apellido" class="form-label">Apellido *</label>
                 <input
@@ -60,7 +62,7 @@
                   aria-label="Apellido completo"
                 />
               </div>
-            
+
               <div class="mb-3">
                 <label for="correo" class="form-label">Email *</label>
                 <input
@@ -73,7 +75,7 @@
                   aria-label="Correo electrónico"
                 />
               </div>
-            
+
               <div class="mb-3">
                 <label for="Numero" class="form-label">Teléfono</label>
                 <input
@@ -86,7 +88,7 @@
                   aria-label="Número de teléfono"
                 />
               </div>
-            
+
               <div class="mb-3">
                 <label for="domicilio" class="form-label">Domicilio *</label>
                 <input
@@ -95,14 +97,16 @@
                   placeholder="Calle, Número, Ciudad"
                   id="domicilio"
                   required
-                  pattern="[A-Za-zÀ-ÿ0-9]+(?:[ ,]*[A-Za-zÀ-ÿ0-9]+)"
-                  title="Dirección Completa"
+                  pattern="^(?=.*[A-Za-zÀ-ÿ])(?=.*\d).+$"
+                  title="Ingrese una dirección válida"
                   aria-label="Dirección completa"
                 />
               </div>
-            
+
               <div class="mb-3">
-                <label for="codigoPostal" class="form-label">Código Postal *</label>
+                <label for="codigoPostal" class="form-label"
+                  >Código Postal *</label
+                >
                 <input
                   type="text"
                   class="form-control"
@@ -114,7 +118,7 @@
                   aria-label="Código postal"
                 />
               </div>
-            
+
               <div class="mb-3">
                 <label for="contraseña" class="form-label">Contraseña *</label>
                 <input
@@ -128,9 +132,11 @@
                   aria-label="Contraseña"
                 />
               </div>
-            
+
               <div class="mb-3">
-                <label for="repetirContraseña" class="form-label">Repetir Contraseña *</label>
+                <label for="repetirContraseña" class="form-label"
+                  >Repetir Contraseña *</label
+                >
                 <input
                   type="password"
                   class="form-control"
@@ -140,14 +146,15 @@
                   title="Debe coincidir con la contraseña ingresada anteriormente."
                   aria-label="Repetir contraseña"
                 />
-                <div id="correo" class="form-text">Los campos con (*) son obligatorios</div>
+                <div id="correo" class="form-text">
+                  Los campos con (*) son obligatorios
+                </div>
               </div>
-            
+
               <div class="mb-4 d-flex justify-content-end">
                 <button type="submit" class="btn btn-primary">Registrar</button>
               </div>
             </form>
-            
           </div>
         </article>
       </section>
