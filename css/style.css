@@ -27,6 +27,12 @@
   color: aqua;
 }
 
-a:hover {
+.hoverNavbar:hover {
   color: aqua !important;
+}
+
+.hoverMarca:hover {
+  background: linear-gradient(to right, #fff4e6, #f8c8c4, #b8e2c8, #a7c7e7);
+  background-clip: text;
+  color: transparent;
 }
