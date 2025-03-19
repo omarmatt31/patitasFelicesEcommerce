@@ -28,18 +28,19 @@
 }
 
 a:hover {
-  color: aqua 
+  color: aqua !important;
 }
 
-.contenedorImagenCarrito{
-    height: 70px;
-    width: 70px;
+.contenedorImagenCarrito {
+  height: 70px;
+  width: 70px;
 }
 
-.table td, .table th{
-    text-align: center;
+.table td,
+.table th {
+  text-align: center;
 }
 
 main {
-    background-color: #FFF4E6;
+  background-color: #fff4e6;
 }
