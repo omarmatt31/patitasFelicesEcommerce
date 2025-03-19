@@ -23,7 +23,7 @@
   <body>
     <header></header>
     <main>
-      <h1 class="text-center mb-4">Crea tu Cuenta</h1>
+      <h1 class="text-center mb-5">Crea tu Cuenta</h1>
       <section class="container">
         <article class="row">
           <div class="col-12 col-md-6"></div>
@@ -36,9 +36,15 @@
                   class="form-control"
                   placeholder="Juan"
                   id="Nombre"
-                  aria-describedby="infoNombre"
+                  required
+                  pattern="[A-Za-zÀ-ÿ\s]{2,50}"
+                  minlength="2"
+                  maxlength="50"
+                  title="Solo letras y espacios, entre 2 y 50 caracteres."
+                  aria-label="Nombre completo"
                 />
               </div>
+            
               <div class="mb-3">
                 <label for="Apellido" class="form-label">Apellido *</label>
                 <input
@@ -46,9 +52,15 @@
                   class="form-control"
                   placeholder="Perez"
                   id="Apellido"
-                  aria-describedby="infoApellido"
+                  required
+                  pattern="[A-Za-zÀ-ÿ\s]{2,50}"
+                  minlength="2"
+                  maxlength="50"
+                  title="Solo letras y espacios, entre 2 y 50 caracteres."
+                  aria-label="Apellido completo"
                 />
               </div>
+            
               <div class="mb-3">
                 <label for="correo" class="form-label">Email *</label>
                 <input
@@ -56,9 +68,12 @@
                   class="form-control"
                   placeholder="juanperez@mail.com"
                   id="correo"
-                  aria-describedby="infoCorreo"
+                  required
+                  title="Debe ser un email válido con formato usuario@dominio.com."
+                  aria-label="Correo electrónico"
                 />
               </div>
+            
               <div class="mb-3">
                 <label for="Numero" class="form-label">Teléfono</label>
                 <input
@@ -66,30 +81,40 @@
                   class="form-control"
                   id="Numero"
                   placeholder="Ej: 1122334455"
+                  pattern="[0-9]{10}"
+                  title="Debe contener exactamente 10 dígitos numéricos."
+                  aria-label="Número de teléfono"
                 />
               </div>
+            
               <div class="mb-3">
                 <label for="domicilio" class="form-label">Domicilio *</label>
                 <input
                   type="text"
                   class="form-control"
-                  placeholder="Calle, número, ciudad"
+                  placeholder="Calle, Número, Ciudad"
                   id="domicilio"
-                  aria-describedby="infoDomicilio"
+                  required
+                  pattern="[A-Za-zÀ-ÿ0-9]+(?:[ ,]*[A-Za-zÀ-ÿ0-9]+)"
+                  title="Dirección Completa"
+                  aria-label="Dirección completa"
                 />
               </div>
+            
               <div class="mb-3">
-                <label for="codigoPostal" class="form-label"
-                  >Código Postal *</label
-                >
+                <label for="codigoPostal" class="form-label">Código Postal *</label>
                 <input
                   type="text"
                   class="form-control"
                   placeholder="12345"
                   id="codigoPostal"
-                  aria-describedby="infoCodigoPostal"
+                  pattern="[A-Za-z0-9]{1,9}"
+                  title="Debe contener entre 1 y 9 caracteres alfanuméricos."
+                  required
+                  aria-label="Código postal"
                 />
               </div>
+            
               <div class="mb-3">
                 <label for="contraseña" class="form-label">Contraseña *</label>
                 <input
@@ -97,25 +122,32 @@
                   class="form-control"
                   placeholder="Ingresa tu contraseña"
                   id="contraseña"
-                  aria-describedby="infoContraseña"
+                  minlength="6"
+                  required
+                  title="Debe tener al menos 6 caracteres."
+                  aria-label="Contraseña"
                 />
               </div>
+            
               <div class="mb-3">
-                <label for="repetirContraseña" class="form-label"
-                  >Repetir Contraseña *</label
-                >
+                <label for="repetirContraseña" class="form-label">Repetir Contraseña *</label>
                 <input
                   type="password"
                   class="form-control"
                   placeholder="Repite tu contraseña"
                   id="repetirContraseña"
-                  aria-describedby="infoRepetirContraseña"
+                  required
+                  title="Debe coincidir con la contraseña ingresada anteriormente."
+                  aria-label="Repetir contraseña"
                 />
+                <div id="correo" class="form-text">Los campos con (*) son obligatorios</div>
               </div>
+            
               <div class="mb-4 d-flex justify-content-end">
-              <button type="submit" class="btn btn-primary">Registrar</button>
-            </div>
+                <button type="submit" class="btn btn-primary">Registrar</button>
+              </div>
             </form>
+            
           </div>
         </article>
       </section>
