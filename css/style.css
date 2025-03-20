@@ -56,9 +56,6 @@ main {
   object-fit: cover;
 }
 
-.textCarousel {
-
-}
 
 .titulosCarousel {
   font-family: "Boldonse", cursive;
@@ -84,3 +81,9 @@ main {
   }
 }
 
+@media (min-width: 992px) {
+  .img-caruosel-patitas{
+      height: 500px;
+      object-position: 100% 50%;
+  }
+}
