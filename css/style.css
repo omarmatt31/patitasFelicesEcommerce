@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Boldonse&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap");
 .hoverDropdawn:hover {
   color: rgb(43, 255, 15);
   background-color: #02eeee41;
@@ -49,5 +49,38 @@
 
 main {
   background-color: #fff4e6;
+}
+
+.img-caruosel-patitas {
+  height: 370px;
+  object-fit: cover;
+}
+
+.textCarousel {
+
+}
+
+.titulosCarousel {
+  font-family: "Boldonse", cursive;
+  bottom: 200%; /*100px;*/
+  left: -30%; /*-400px;*/
+}
+
+.subtituloCarousel{
+  font-family: "Josefin Slab", serif;
+  bottom: 200%; /*100px;*/
+  left: -15%; /*-400px;*/
+}
+
+@media all and (max-width: 767px) {
+  .titulosCarousel {
+    bottom: 0; /*100px;*/
+    left: -0; /*-400px;*/
+  }
+  
+  .subtituloCarousel{
+    bottom: 0; /*100px;*/
+    left: 0; /*-400px;*/
+  }
 }
 
