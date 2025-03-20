@@ -54,8 +54,15 @@ body{
   flex-direction: column;
   min-height: 100vh;
 }
-.footer-logo img {
+.footer-logo{
   max-width: 200px; 
+  margin: 0 auto;
+  display: block;
+}
+@media (max-width: 991.98px) {
+  .footer-logo {
+    margin-bottom: 20px; /* Espacio adicional debajo de la imagen en dispositivos pequeños */
+  }
 }
 
 
