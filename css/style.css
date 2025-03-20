@@ -59,14 +59,10 @@ main {
 
 .titulosCarousel {
   font-family: "Boldonse", cursive;
-  bottom: 200%; /*100px;*/
-  left: -30%; /*-400px;*/
 }
 
 .subtituloCarousel{
   font-family: "Josefin Slab", serif;
-  bottom: 200%; /*100px;*/
-  left: -15%; /*-400px;*/
 }
 
 @media all and (max-width: 767px) {
