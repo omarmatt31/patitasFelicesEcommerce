@@ -115,6 +115,30 @@ body {
 .sofia {
   object-position: 50% 58%;
 }
+/* login */
+/* login */
+main {
+  background-color: #fff4e6;
+  flex-grow: 1;
+  display: flex;
+  align-items: center; /* Esto centra verticalmente */
+}
+
+.login-container {
+  width: 100%;
+  padding: 20px;
+}
+
+@media (max-width: 991.98px) {
+  .login-card {
+      width: 100%;
+      max-width: 500px;
+      margin: auto;
+  }
+}
+.fs{
+  font-size: 150px;
+}
 @media (max-width: 991.98px) {
   .footer-logo {
     margin-bottom: 20px;
