@@ -1,3 +1,29 @@
+@font-face {
+  font-family: "GloriaHallelujah";
+  src: url("../fonts/GloriaHallelujah-Regular.ttf");
+}
+
+.form-control {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tipografia{
+  font-family: "GloriaHallelujah", sans-serif;
+}
+.titulo{
+  background-color: #5079B4;
+}
+@media (min-width: 992px) {
+  label {
+      margin-left: 25px;
+  }
+}
+@media (min-width: 992px) {
+  .media {
+      margin-left: 25px;
+  }
+}
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Boldonse&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap");
 /* Codigo del Navbar */
 .hoverDropdawn:hover {
@@ -74,10 +100,6 @@
   background-color: #6d6e75;
 }
 
-main {
-  background-color: #fff4e6;
-  flex-grow: 1;
-}
 body {
   display: flex;
   flex-direction: column;
@@ -105,30 +127,6 @@ object-position: 50% 100%;
 }
 .sofia{
   object-position: 50% 58%;
-}
-/* login */
-/* login */
-main {
-  background-color: #fff4e6;
-  flex-grow: 1;
-  display: flex;
-  align-items: center; /* Esto centra verticalmente */
-}
-
-.login-container {
-  width: 100%;
-  padding: 20px;
-}
-
-@media (max-width: 991.98px) {
-  .login-card {
-      width: 100%;
-      max-width: 500px;
-      margin: auto;
-  }
-}
-.fs{
-  font-size: 150px;
 }
 @media (max-width: 991.98px) {
   .footer-logo {
