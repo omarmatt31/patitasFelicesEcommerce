@@ -45,7 +45,8 @@
                     class="form-control bg-light"
                     id="Nombre"
                     placeholder="Juan"
-                    required
+                    pattern="^[A-Za-zÁÉÍÓÚáéíóúÑñ\s]{2,50}$"
+                    title="Debe contener solo letras y espacios (mínimo 2 caracteres)"
                   />
                 </div>
 
@@ -56,7 +57,8 @@
                     class="form-control"
                     id="Apellido"
                     placeholder="Perez"
-                    required
+                    pattern="^[A-Za-zÁÉÍÓÚáéíóúÑñ\s]{2,50}$"
+                    title="Debe contener solo letras y espacios (mínimo 2 caracteres)"
                   />
                 </div>
 
@@ -67,6 +69,23 @@
                     class="form-control"
                     id="correo"
                     placeholder="juanperez@mail.com"
+                    pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+                    title="Debe ser un correo válido (juanperez@mail.com)"
+                    required
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label for="NombreDeUsuario" class="form-label"
+                    >Nombre de usuario</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="NombreDeUsuario"
+                    placeholder="Ej: juan_perez"
+                    pattern="^[a-zA-Z0-9._]{4,16}$"
+                    title="Debe contener solo letras, números, guion bajo (_) y punto (.) (4-16 caracteres)"
                     required
                   />
                 </div>
@@ -78,6 +97,9 @@
                     class="form-control"
                     id="Numero"
                     placeholder="Ej: 1122334455"
+                    pattern="^\d{10,15}$"
+                    title="Debe contener entre 10 y 15 dígitos numéricos"
+                    required
                   />
                 </div>
 
@@ -88,6 +110,8 @@
                     class="form-control"
                     id="domicilio"
                     placeholder="Calle, Número, Ciudad"
+                    pattern="^[A-Za-zÁÉÍÓÚáéíóúÑñ0-9\s.,#-]{5,100}$"
+                    title="Dirección completa"
                     required
                   />
                 </div>
@@ -101,6 +125,8 @@
                     class="form-control"
                     id="codigoPostal"
                     placeholder="12345"
+                    pattern="^[A-Za-z0-9\s-]{4,10}$"
+                    title="Debe contener solo números o letras (mínimo 4 y máximo 10 caracteres)"
                     required
                   />
                 </div>
@@ -114,6 +140,8 @@
                     class="form-control"
                     id="contraseña"
                     placeholder="Ingresa tu contraseña"
+                    pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,20}$"
+                    title="Debe contener al menos 8 caracteres, una letra, un número y un símbolo especial"
                     required
                   />
                 </div>
@@ -127,6 +155,8 @@
                     class="form-control"
                     id="repetirContraseña"
                     placeholder="Repite tu contraseña"
+                    pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,20}$"
+                    title="Debe contener al menos 8 caracteres, una letra, un número y un símbolo especial"
                     required
                   />
                 </div>
