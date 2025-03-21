@@ -175,27 +175,25 @@
           <div class="col-md-8">
             <div class="card background-color border-0 shadow login-card">
               <div class="row g-0">
-                <!-- Columna de la imagen -->
                 <div class="col-md-5 d-none d-md-block">
                   <div class="h-100 d-flex align-items-center justify-content-center">
                     <i class="bi bi-person-circle color fs"></i>
                   </div>
                 </div>
-                <!-- Columna del formulario -->
                 <div class="col-md-7">
                     <div class="card-body p-4">
                       <h2 class="card-title text-center mb-4 color">Iniciar Sesión</h2>
                       <form>
                         <div class="mb-3">
                           <label for="email" class="form-label color">Correo electrónico</label>
-                          <input type="email" class="form-control bg-transparent color" id="email" required>
+                          <input type="email" class="form-control bg-transparent color" minlength="10" maxlength="100" id="email" required>
                         </div>
                         <div class="mb-3">
                           <label for="password" class="form-label color">Contraseña</label>
-                          <input type="password" class="form-control bg-transparent color" id="password" required>
+                          <input type="password" class="form-control bg-transparent color" minlength="8" maxlength="100" id="password" required>
                         </div>
                         <div class="mb-3 text-end">
-                          <a href="#" class="text-decoration-none text-info">¿Has olvidado tu contraseña?</a>
+                          <a href="/pages/error404.html" class="text-decoration-none text-info">¿Has olvidado tu contraseña?</a>
                         </div>
                         <div class="d-grid gap-2">
                           <button type="submit" class="btn btn-info text-white">Acceder</button>
@@ -203,12 +201,16 @@
                         <div class="text-center mt-4">
                             <p class="color">O inicia sesión con</p>
                             <div class="d-flex justify-content-center gap-3">
+                                <a href="./error404.html">
                               <button type="button" class="btn btn-outline-danger color">
                                 <i class="bi bi-google"></i> Google
                               </button>
+                            </a>
+                            <a href="./error404.html">
                               <button type="button" class="btn btn-outline-primary color">
                                 <i class="bi bi-facebook"></i> Facebook
                               </button>
+                            </a>
                             </div>
                           </div>
                       </form>
