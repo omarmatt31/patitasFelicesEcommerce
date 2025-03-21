@@ -24,3 +24,172 @@
       margin-left: 25px;
   }
 }
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Boldonse&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap");
+/* Codigo del Navbar */
+.hoverDropdawn:hover {
+  color: rgb(43, 255, 15);
+  background-color: #02eeee41;
+}
+
+.background-color {
+  background-color: #6d6e75;
+}
+
+.color-gradient {
+  font-family: "Pacifico", cursive;
+  background: linear-gradient(to right, #a7c7e7, #b8e2c8, #f8c8c4, #fff4e6);
+  background-clip: text;
+  color: transparent;
+}
+
+.color {
+  color: white;
+}
+
+.color-carrito {
+  color: greenyellow;
+}
+
+.focus {
+  color: aqua;
+}
+
+.hoverNavbar:hover {
+  color: aqua !important;
+}
+
+.hoverMarca:hover {
+  background: linear-gradient(to right, #fff4e6, #f8c8c4, #b8e2c8, #a7c7e7);
+  background-clip: text;
+  color: transparent;
+}
+/* Fin Del codigo del Navbar */
+
+/* Codigo del index Main */
+.colorDeFondoMain {
+  background-color: #fff4e6;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.imagenesPrecentacionIndex {
+  border-radius: 30px;
+}
+
+.object-position-75 {
+  object-position: 75%;
+}
+
+.text-justify {
+  text-align: justify;
+}
+/* Fin del codigo index Main */
+
+.contenedorImagenCarrito {
+  height: 70px;
+  width: 70px;
+}
+
+.table td,
+.table th {
+  text-align: center;
+}
+.color-footer {
+  background-color: #6d6e75;
+}
+
+main {
+  background-color: #fff4e6;
+  flex-grow: 1;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.footer-logo {
+  max-width: 200px;
+  margin: 0 auto;
+  display: block;
+}
+.desarrollador-foto{
+  width: 200px; 
+  height: 200px; 
+  object-position: 50% 50%;
+  object-fit: cover;
+}
+.marcos{
+  object-position: 50% 0%;
+}
+.omar{
+object-position: 50% 100%;
+}
+.ismael{
+  object-position: 50% 0%;
+}
+.sofia{
+  object-position: 50% 58%;
+}
+@media (max-width: 991.98px) {
+  .footer-logo {
+    margin-bottom: 20px;
+  }
+}
+
+.img-caruosel-patitas {
+  height: 370px;
+  object-fit: cover;
+}
+
+.titulosCarousel {
+  font-family: "Boldonse", cursive;
+}
+
+.subtituloCarousel {
+  font-family: "Josefin Slab", serif;
+}
+
+.fadeInTexto {
+  animation: fadeIn 2s linear;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .titulosCarousel {
+    bottom: 0; /*100px;*/
+    left: -0; /*-400px;*/
+  }
+
+  .subtituloCarousel {
+    bottom: 0; /*100px;*/
+    left: 0; /*-400px;*/
+  }
+}
+
+@media (min-width: 992px) {
+  .img-caruosel-patitas {
+    height: 500px;
+    object-position: 100% 50%;
+  }
+}
+
+/* Codigo del index Main */
+@media (max-width: 991px) {
+  .imagenesPrecentacionIndex {
+    border-radius: 20px;
+  }
+  .text-justify {
+    text-align: center;
+  }
+}
+/* Fin Del Codigo index Main */
