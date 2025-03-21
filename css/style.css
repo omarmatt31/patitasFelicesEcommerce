@@ -49,7 +49,7 @@
 }
 
 .imagenesPrecentacionIndex {
-  border-radius: 30%;
+  border-radius: 30px;
 }
 
 .object-position-75 {
@@ -142,7 +142,7 @@ body {
 /* Codigo del index Main */
 @media (max-width: 991px) {
   .imagenesPrecentacionIndex {
-    border-radius: 15%;
+    border-radius: 20px;
   }
   .text-justify {
     text-align: center;
