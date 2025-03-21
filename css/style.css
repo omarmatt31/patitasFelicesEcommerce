@@ -19,3 +19,13 @@
 .titulo{
   background-color: #5079B4;
 }
+@media (min-width: 992px) {
+  label {
+      margin-left: 25px;
+  }
+}
+@media (min-width: 992px) {
+  .media {
+      margin-left: 25px;
+  }
+}
