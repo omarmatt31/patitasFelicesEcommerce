@@ -25,6 +25,7 @@
   }
 }
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Boldonse&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 /* Codigo del Navbar */
 .hoverDropdawn:hover {
   color: rgb(43, 255, 15);
@@ -85,6 +86,14 @@
 .text-justify {
   text-align: justify;
 }
+
+.textShadow {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.font-titulos {
+  font-family: "Sour Gummy", sans-serif;
+}
 /* Fin del codigo index Main */
 
 .contenedorImagenCarrito {
@@ -110,24 +119,42 @@ body {
   margin: 0 auto;
   display: block;
 }
-.desarrollador-foto{
-  width: 200px; 
-  height: 200px; 
+.desarrollador-foto {
+  width: 200px;
+  height: 200px;
   object-position: 50% 50%;
   object-fit: cover;
 }
-.marcos{
+.marcos {
   object-position: 50% 0%;
 }
-.omar{
-object-position: 50% 100%;
+.omar {
+  object-position: 50% 100%;
 }
-.ismael{
+.ismael {
   object-position: 50% 0%;
 }
-.sofia{
+.sofia {
   object-position: 50% 58%;
 }
+
+.login-container {
+  width: 100%;
+  padding: 20px;
+}
+
+@media (max-width: 991.98px) {
+  .login-card {
+      width: 100%;
+      max-width: 500px;
+      margin: auto;
+  }
+}
+
+.fs{
+  font-size: 150px;
+}
+
 @media (max-width: 991.98px) {
   .footer-logo {
     margin-bottom: 20px;
