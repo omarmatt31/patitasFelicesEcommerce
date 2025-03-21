@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Boldonse&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap");
+/* Codigo del Navbar */
 .hoverDropdawn:hover {
   color: rgb(43, 255, 15);
   background-color: #02eeee41;
@@ -27,16 +28,24 @@
   color: aqua;
 }
 
+.hoverNavbar:hover {
+  color: aqua !important;
+}
+
+.hoverMarca:hover {
+  background: linear-gradient(to right, #fff4e6, #f8c8c4, #b8e2c8, #a7c7e7);
+  background-clip: text;
+  color: transparent;
+}
+/* Fin Del codigo del Navbar */
+
+/* Codigo del index Main */
 .colorDeFondoMain {
   background-color: #fff4e6;
 }
 
 .object-fit-cover {
   object-fit: cover;
-}
-
-.contenedor {
-  overflow: hidden;
 }
 
 .imagenesPrecentacionIndex {
@@ -50,16 +59,7 @@
 .text-justify {
   text-align: justify;
 }
-
-.hoverNavbar:hover {
-  color: aqua !important;
-}
-
-.hoverMarca:hover {
-  background: linear-gradient(to right, #fff4e6, #f8c8c4, #b8e2c8, #a7c7e7);
-  background-clip: text;
-  color: transparent;
-}
+/* Fin del codigo index Main */
 
 .contenedorImagenCarrito {
   height: 70px;
@@ -139,6 +139,7 @@ body {
   }
 }
 
+/* Codigo del index Main */
 @media (max-width: 991px) {
   .imagenesPrecentacionIndex {
     border-radius: 15%;
@@ -153,3 +154,4 @@ body {
     display: none;
   }
 }
+/* Fin Del Codigo index Main */
