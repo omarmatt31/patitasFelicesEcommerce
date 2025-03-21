@@ -148,10 +148,4 @@ body {
     text-align: center;
   }
 }
-
-@media (max-width: 767px) {
-  .ocultar {
-    display: none;
-  }
-}
 /* Fin Del Codigo index Main */
