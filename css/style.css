@@ -80,7 +80,9 @@ object-position: 50% 100%;
 .ismael{
   object-position: 50% 0%;
 }
-
+.sofia{
+  object-position: 50% 58%;
+}
 @media (max-width: 991.98px) {
   .footer-logo {
     margin-bottom: 20px;
