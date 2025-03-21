@@ -40,9 +40,7 @@
 }
 
 .imagenesPrecentacionIndex {
-  float: left;
-  margin-right: 15px;
-  border-radius: 50%;
+  border-radius: 30%;
 }
 
 .object-position-75 {
@@ -138,5 +136,20 @@ body {
   .img-caruosel-patitas {
     height: 500px;
     object-position: 100% 50%;
+  }
+}
+
+@media (max-width: 991px) {
+  .imagenesPrecentacionIndex {
+    border-radius: 15%;
+  }
+  .text-justify {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .ocultar {
+    display: none;
   }
 }
