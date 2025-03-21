@@ -68,9 +68,19 @@ body{
 .desarrollador-foto{
   width: 200px; 
   height: 200px; 
-  
+  object-position: 50% 50%;
   object-fit: cover;
 }
+.marcos{
+  object-position: 50% 0%;
+}
+.omar{
+object-position: 50% 100%;
+}
+.ismael{
+  object-position: 50% 0%;
+}
+
 @media (max-width: 991.98px) {
   .footer-logo {
     margin-bottom: 20px;
