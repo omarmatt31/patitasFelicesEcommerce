@@ -115,14 +115,6 @@ body {
 .sofia {
   object-position: 50% 58%;
 }
-/* login */
-/* login */
-main {
-  background-color: #fff4e6;
-  flex-grow: 1;
-  display: flex;
-  align-items: center; /* Esto centra verticalmente */
-}
 
 .login-container {
   width: 100%;
