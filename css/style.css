@@ -185,3 +185,9 @@ object-position: 50% 100%;
   }
 }
 /* Fin Del Codigo index Main */
+
+/* Clases Producto */
+.img-caruosel-producto {
+  height: 370px;
+  object-fit: cover;
+}
