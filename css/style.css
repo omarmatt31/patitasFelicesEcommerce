@@ -1,4 +1,116 @@
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+/* Estilos para la página de contacto */
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Gloria+Hallelujah&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+
+@font-face {
+    font-family: "GloriaHallelujah";
+    src: url("../fonts/GloriaHallelujah-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sour Gummy', cursive; /* Fuente principal */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #fff4f6;
+}
+
+main {
+    background-color: #fff4f6;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.form-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-box {
+    flex: 1;
+    min-width: 300px;
+}
+
+.form-control {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 70px;
+}
+
+.map-box {
+    flex: 1;
+    min-width: 300px;
+    background-color: #add8e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    border-radius: 5px;
+}
+/*fin pagina de contacto*/
+
+/* Media Queries */
+@media (min-width: 992px) {
+    label {
+        margin-left: 25px;
+    }
+}
+
+.tipografia {
+    font-family: "GloriaHallelujah", sans-serif;
+}
+
+.titulo {
+    background-color: #5079B4;
+}
 .hoverDropdawn:hover {
   color: rgb(43, 255, 15);
   background-color: #02eeee41;
@@ -27,9 +139,46 @@
   color: aqua;
 }
 
-a:hover {
+.hoverNavbar:hover {
   color: aqua !important;
 }
+
+.hoverMarca:hover {
+  background: linear-gradient(to right, #fff4e6, #f8c8c4, #b8e2c8, #a7c7e7);
+  background-clip: text;
+  color: transparent;
+}
+/* Fin Del codigo del Navbar */
+
+/* Codigo del index Main */
+.colorDeFondoMain {
+  background-color: #fff4e6;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.imagenesPrecentacionIndex {
+  border-radius: 30px;
+}
+
+.object-position-75 {
+  object-position: 75%;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.textShadow {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.font-titulos {
+  font-family: "Sour Gummy", sans-serif;
+}
+/* Fin del codigo index Main */
 
 .contenedorImagenCarrito {
   height: 70px;
@@ -40,7 +189,132 @@ a:hover {
 .table th {
   text-align: center;
 }
-
-main {
-  background-color: #fff4e6;
+.color-footer {
+  background-color: #6d6e75;
 }
+
+.footer-logo {
+  max-width: 200px;
+  margin: 0 auto;
+  display: block;
+}
+.desarrollador-foto {
+  width: 200px;
+  height: 200px;
+  object-position: 50% 50%;
+  object-fit: cover;
+}
+.marcos {
+  object-position: 50% 0%;
+}
+.omar {
+  object-position: 50% 100%;
+}
+.ismael {
+  object-position: 50% 0%;
+}
+.sofia {
+  object-position: 50% 58%;
+}
+
+.login-container {
+  width: 100%;
+  padding: 20px;
+}
+
+@media (max-width: 991.98px) {
+  .login-card {
+      width: 100%;
+      max-width: 500px;
+      margin: auto;
+  }
+}
+
+.fs{
+  font-size: 150px;
+}
+
+@media (max-width: 991.98px) {
+  .footer-logo {
+    margin-bottom: 20px;
+  }
+}
+
+.img-caruosel-patitas {
+  height: 370px;
+  object-fit: cover;
+}
+
+.titulosCarousel {
+  font-family: "Boldonse", cursive;
+}
+
+.subtituloCarousel {
+  font-family: "Josefin Slab", serif;
+}
+
+.fadeInTexto {
+  animation: fadeIn 2s linear;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .titulosCarousel {
+    bottom: 0; /*100px;*/
+    left: -0; /*-400px;*/
+  }
+
+  .subtituloCarousel {
+    bottom: 0; /*100px;*/
+    left: 0; /*-400px;*/
+  }
+}
+
+@media (min-width: 992px) {
+  .img-caruosel-patitas {
+    height: 500px;
+    object-position: 100% 50%;
+  }
+}
+
+/* Codigo del index Main */
+@media (max-width: 991px) {
+  .imagenesPrecentacionIndex {
+    border-radius: 20px;
+  }
+  .text-justify {
+    text-align: center;
+  }
+}
+/* Fin Del Codigo index Main */
+
+/* Clases Producto */
+.img-caruosel-producto {
+  height: 400px;
+  object-fit: cover;
+}
+
+/* clases de pageError404*/
+.error-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;  
+}
+
+.btn-error:hover {
+  font-family: "Pacifico", cursive;
+  background: linear-gradient(to right, #a7c7e7, #b8e2c8, #f8c8c4, #fff4e6);  
+}
+
+
+
