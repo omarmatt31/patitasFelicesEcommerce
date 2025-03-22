@@ -6,30 +6,11 @@
     src: url("../fonts/GloriaHallelujah-Regular.ttf");
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.fuenteMain{
+ font-family: 'Sour Gummy', cursive;
 }
 
-body {
-    font-family: 'Sour Gummy', cursive; /* Fuente principal */
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    margin: 0;
-    background-color: #fff4f6;
-}
-
-main {
-    background-color: #fff4f6;
-}
-
-h1 {
-    text-align: center;
-}
-
-.container {
+.contactocontenedor {
     width: 90%;
     max-width: 900px;
     margin: 20px auto;
@@ -54,18 +35,17 @@ h1 {
     margin-right: auto;
 }
 
-form {
+.formulariocontacto {
     display: flex;
     flex-direction: column;
 }
 
-label {
+.labelcontacto {
     font-weight: bold;
     margin-top: 10px;
 }
 
-input,
-textarea {
+.inputtextareacontacto {
     width: 100%;
     padding: 8px;
     margin-top: 5px;
@@ -73,7 +53,7 @@ textarea {
     border-radius: 5px;
 }
 
-button {
+.botoncontacto {
     text-align: center;
     margin-top: 15px;
     padding: 10px;
