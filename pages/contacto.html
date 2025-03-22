@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Accesorios para mascotas de alta calidad a los mejores precios. Cama, juguetes, ropa y más para nuestras mascotas."
+    />
+    <meta
+      name="author"
+      content="Ana Sofia Cisterna, Ignacio Nazar, Ismael Isa, Marcos Joel Tebis, Omar Mattos, Tobias Conde"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Patitas Felices</title>
+  </head>
+  <body class="contenedorbodycontacto colorDeFondoMain">
+    <header>
+      <nav class="navbar navbar-expand-lg background-color text-white">
+        <div class="container-fluid">
+          <a class="navbar-brand color-gradient hoverMarca" href="../index.html"
+            >Patitas Felices</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav me-auto mb-2 mb-lg-0 d-lg-flex align-items-lg-center"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link focus"
+                  aria-current="page"
+                  href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link color hoverNavbar"
+                  href="categoriaPerros.html"
+                  >Perros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link color hoverNavbar"
+                  href="categoriaGatos.html"
+                  >Gatos</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle color hoverNavbar"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Otros
+                </a>
+                <ul class="dropdown-menu background-color">
+                  <li>
+                    <a
+                      class="dropdown-item hoverDropdawn color"
+                      href="categoriaAves.html"
+                      >Aves</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item hoverDropdawn color"
+                      href="categoriaPeces.html"
+                      >Peces</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item hoverDropdawn color"
+                      href="categoriaInsectos.html"
+                      >Insectos</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item hoverDropdawn color"
+                      href="categoriaTortugas.html"
+                      >Tortugas</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle color hoverNavbar"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Información
+                </a>
+                <ul class="dropdown-menu background-color">
+                  <li>
+                    <a
+                      class="dropdown-item hoverDropdawn color"
+                      href="contacto.html"
+                      >Contacto</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item hoverDropdawn color"
+                      href="sobreNosotros.html"
+                      >Sobre Nosotros</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item hoverDropdawn color"
+                      href="preguntasFrecuentes.html"
+                      >Preguntas Frecuentes</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link color hoverNavbar"
+                  href="registro.html"
+                  >Registro</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color hoverNavbar" href="login.html"
+                  >Iniciar Sesion</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-info" type="submit">Buscar</button>
+            </form>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link color-carrito hoverNavbar"
+                  href="detalleCarrito.html"
+                  ><i class="bi bi-cart4 fs-4"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="contactocontenedor fuenteMain colorDeFondoMain">
+        <section>
+          <article>
+            <h1 class="text-center">Contactanos</h1>
+            <div class="form-container">
+              <div class="form-box">
+                  <form class="formulariocontacto">
+                      <label class="labelcontacto" for="nombres">Nombres y apellidos:</label>
+                      <input class="inputtextareacontacto"
+                        type="text"
+                        minlength="9"
+                        maxlength="90"
+                        placeholder="Ej: Juan Manuel Torres"
+                        required
+                        id="nombres"
+                        required
+                      />
+                      <label class="labelcontacto" for="email">E-mail:</label>
+                      <input class="inputtextareacontacto"
+                        type="email"
+                        minlength="10"
+                        maxlength="90"
+                        id="email"
+                        placeholder="Ej: juanmanueltorres@gmail.com"
+                        required
+                      />
+                      <label class="labelcontacto" for="telefono">Telefono:</label>
+                      <input class="inputtextareacontacto"
+                        type="tel"
+                        id="telefono"
+                        placeholder="Ej: +54 9 381 782 9094"
+                        required
+                      />
+                      <label class="labelcontacto" for="mensaje">Mensaje:</label>
+                      <textarea class="inputtextareacontacto"
+                        id="mensaje"
+                        rows="5"
+                        placeholder="Ingrese un mensaje aqui"
+                        minlength="10"
+                        maxlength="250"
+                      ></textarea>
+                      <button type="submit" class="botoncontacto">Enviar</button>
+              </div>
+              <div class="map-box">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.107271764479!2d-65.20835790541287!3d-26.836540196752054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses-419!2sar!4v1742470248500!5m2!1ses-419!2sar" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </article>
+        </section>
+      </main>
+    <footer class="color-footer py-5">
+      <div class="container">
+        <div class="row align-items-start justify-content-center">
+          <div class="col-12 col-lg-3 order-1">
+            <a href="./index.html">
+              <img
+                src="../img/logo/Logo Monocromatico.png"
+                alt="Logo"
+                class="img-fluid footer-logo mb-4"
+              />
+            </a>
+          </div>
+          <article
+            class="col-12 col-md-4 col-lg-3 text-center text-light text-md-start order-2"
+          >
+            <h4 class="mb-3 fs-3">Navegacion</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="sobreNosotros.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >sobre Nosotros</a
+                >
+              </li>
+              <li>
+                <a
+                  href="contacto.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Contactos</a
+                >
+              </li>
+              <li>
+                <a
+                  href="preguntasFrecuentes.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Preguntas Frecuentes</a
+                >
+              </li>
+              <li>
+                <a
+                  href="error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Iniciar Secion</a
+                >
+              </li>
+              <li>
+                <a
+                  href="registro.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Registro</a
+                >
+              </li>
+              <li>
+                <a
+                  href="error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Perros</a
+                >
+              </li>
+              <li>
+                <a
+                  href="error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >gatos</a
+                >
+              </li>
+            </ul>
+          </article>
+          <article
+            class="col-12 col-md-4 col-lg-3 text-center text-light text-md-start order-2"
+          >
+            <h4 class="mb-3 fs-3">Contacto</h4>
+            <ul class="list-unstyled">
+              <li class="text-dark">
+                <a
+                  href="error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Email: patitasfelices802@gmail.com
+                </a>
+              </li>
+              <li>
+                <a
+                  href="./error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Teléfono: +54 3817776635</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://maps.app.goo.gl/WMN9dBK8oFT5Uo4i6"
+                  target="_blank"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Dirección: Av. Brígido Terán 127</a
+                >
+              </li>
+            </ul>
+          </article>
+          <article
+            class="col-12 col-md-4 col-lg-3 text-light text-center order-2"
+          >
+            <h4 class="mb-3 fs-3">Contactanos por:</h4>
+            <ul class="list-unstyled d-flex justify-content-center gap-4">
+              <a
+                href="https://www.instagram.com/patitas.felicesoficial/"
+                target="_blank"
+                class="link-light"
+              >
+                <i class="bi bi-instagram fs-2"></i>
+              </a>
+              <a
+                href="https://x.com/Patitas375"
+                target="_blank"
+                class="link-dark"
+              >
+                <i class="bi bi-twitter-x fs-2"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/profile.php?id=61574572914434"
+                target="_blank"
+                class="link-primary"
+              >
+                <i class="bi bi-facebook fs-2"></i>
+              </a>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

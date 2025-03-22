@@ -1,32 +1,102 @@
+/* Estilos para la página de contacto */
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Gloria+Hallelujah&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Boldonse&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
 @font-face {
-  font-family: "GloriaHallelujah";
-  src: url("../fonts/GloriaHallelujah-Regular.ttf");
+    font-family: "GloriaHallelujah";
+    src: url("../fonts/GloriaHallelujah-Regular.ttf");
+}
+
+.fuenteMain{
+ font-family: 'Sour Gummy', cursive;
+}
+
+.contactocontenedor {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.form-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-box {
+    flex: 1;
+    min-width: 300px;
 }
 
 .form-control {
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.tipografia{
-  font-family: "GloriaHallelujah", sans-serif;
+
+.formulariocontacto {
+    display: flex;
+    flex-direction: column;
 }
-.titulo{
-  background-color: #5079B4;
+
+.labelcontacto {
+    font-weight: bold;
+    margin-top: 10px;
 }
+
+.inputtextareacontacto {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.botoncontacto {
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 70px;
+}
+
+.map-box {
+    flex: 1;
+    min-width: 300px;
+    background-color: #add8e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    border-radius: 5px;
+}
+/*fin pagina de contacto*/
+
+/* Media Queries */
 @media (min-width: 992px) {
-  label {
-      margin-left: 25px;
-  }
+    label {
+        margin-left: 25px;
+    }
 }
-@media (min-width: 992px) {
-  .media {
-      margin-left: 25px;
-  }
+
+.tipografia {
+    font-family: "GloriaHallelujah", sans-serif;
 }
+
+.titulo {
+    background-color: #5079B4;
+}
+
 /* Codigo del Navbar */
+
 .hoverDropdawn:hover {
   color: rgb(43, 255, 15);
   background-color: #02eeee41;
@@ -109,11 +179,6 @@
   background-color: #6d6e75;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
 .footer-logo {
   max-width: 200px;
   margin: 0 auto;
