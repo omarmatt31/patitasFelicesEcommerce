@@ -28,7 +28,7 @@
     <header>
       <nav class="navbar navbar-expand-lg background-color text-white">
         <div class="container-fluid">
-          <a class="navbar-brand color-gradient" href="./index.html"
+          <a class="navbar-brand color-gradient hoverMarca" href="./index.html"
             >Patitas Felices</a
           >
           <button
@@ -43,7 +43,9 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul
+              class="navbar-nav me-auto mb-2 mb-lg-0 d-lg-flex align-items-lg-center"
+            >
               <li class="nav-item">
                 <a
                   class="nav-link focus"
@@ -53,18 +55,22 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link color" href="./pages/categoriaPerros.html"
+                <a
+                  class="nav-link color hoverNavbar"
+                  href="./pages/categoriaPerros.html"
                   >Perros</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link color" href="./pages/categoriaGatos.html"
+                <a
+                  class="nav-link color hoverNavbar"
+                  href="./pages/categoriaGatos.html"
                   >Gatos</a
                 >
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle color"
+                  class="nav-link dropdown-toggle color hoverNavbar"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -103,31 +109,50 @@
                   </li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link color" href="./pages/contacto.html"
-                  >Contacto</a
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle color hoverNavbar"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
                 >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link color" href="./pages/sobreNosotros.html"
-                  >Sobre Nosotros</a
-                >
+                  Información
+                </a>
+                <ul class="dropdown-menu background-color">
+                  <li>
+                    <a
+                      class="dropdown-item hoverDropdawn color"
+                      href="./pages/contacto.html"
+                      >Contacto</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item hoverDropdawn color"
+                      href="./pages/sobreNosotros.html"
+                      >Sobre Nosotros</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item hoverDropdawn color"
+                      href="./pages/preguntasFrecuentes.html"
+                      >Preguntas Frecuentes</a
+                    >
+                  </li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link color"
-                  href="./pages/preguntasFrecuentes.html"
-                  >Preguntas Frecuentes</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link color" href="./pages/registro.html"
+                  class="nav-link color hoverNavbar"
+                  href="./pages/registro.html"
                   >Registro</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link color" href="./pages/login.html"
-                  >Iniciar Sesión</a
+                <a class="nav-link color hoverNavbar" href="./pages/login.html"
+                  >Iniciar Sesion</a
                 >
               </li>
             </ul>
@@ -143,7 +168,7 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a
-                  class="nav-link color-carrito"
+                  class="nav-link color-carrito hoverNavbar"
                   href="./pages/detalleCarrito.html"
                   ><i class="bi bi-cart4 fs-4"></i
                 ></a>
@@ -153,8 +178,454 @@
         </div>
       </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <main class="colorDeFondoMain">
+      <div id="carouselPatitas" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselPatitas"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselPatitas"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselPatitas"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./img/arina-krasnikova-7726077.jpg"
+              class="d-block w-100 img-caruosel-patitas"
+              alt="banner, gatos, gimnasio"
+            />
+            <div
+              class="carousel-caption position-absolute end-50 bottom-0 text-start w-50 fadeInTexto"
+            >
+              <h3 class="titulosCarousel fs-1">25% OFF</h3>
+              <p class="subtituloCarousel fs-2">
+                GIMNASIOS Y RASCADORES PARA GATOS
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/francesco-ungaro-96428.jpg"
+              class="d-block w-100 img-caruosel-patitas"
+              alt="banner, gatos, cucha"
+            />
+            <div
+              class="carousel-caption position-absolute end-50 bottom-0 text-start w-50 fadeInTexto"
+            >
+              <h3 class="titulosCarousel fs-1">12 Cuotas Sin Interes</h3>
+              <img
+                src="./img/tarjetas-credito-logos.png"
+                alt="tarjetas de credito"
+                class="position-relative subtituloCarousel w-50"
+              />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/nancy-guth-269359-850602.jpg"
+              class="d-block w-100 img-caruosel-patitas"
+              alt="banner, perros, mirada"
+            />
+            <div
+              class="carousel-caption position-absolute end-50 bottom-0 text-start w-50 fadeInTexto"
+            >
+              <h3 class="titulosCarousel fs-1">10% Dto. en la 2° unidad</h3>
+              <p class="subtituloCarousel fs-2">EN ALIMENTO PARA PERROS</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselPatitas"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselPatitas"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container-fluid">
+        <section class="d-flex align-items-center">
+          <div class="row me-1 align-self-start">
+            <h1 class="text-center textShadow font-titulos">
+              Tu Mascota, Tu Familia:<br />
+              La Tienda Perfecta para Ellos
+            </h1>
+            <div class="col-12 col-md-3">
+              <img
+                class="img-fluid w-100 h-100 object-fit-cover imagenesPrecentacionIndex d-none d-md-block"
+                src="./img/perritoFelis-LadoIzquierdo.jfif"
+                alt="Un perrito sonriendo"
+              />
+            </div>
+            <article class="col-12 col-md-6">
+              <p class="text-justify">
+                Las mascotas no son solo animales, son parte de nuestra familia,
+                nuestros compañeros de vida y, muchas veces, como nuestros
+                propios hijos. En nuestra tienda en línea, entendemos ese amor
+                incondicional y nos comprometemos a ofrecerte los mejores
+                productos para su bienestar, felicidad y cuidado. Desde alimento
+                de calidad hasta juguetes y accesorios diseñados para su
+                comodidad, aquí encontrarás todo lo que necesitas para consentir
+                a tu pequeño amigo peludo. ¡Porque ellos merecen lo mejor! 🐾❤️
+              </p>
+            </article>
+            <div class="col-12 col-md-3">
+              <img
+                class="img-fluid w-100 h-100 object-fit-cover imagenesPrecentacionIndex object-position-75"
+                src="./img/gatoFelis-ladoDerecho.jpg"
+                alt="Gatito mirandote"
+              />
+            </div>
+          </div>
+          <div class="col-md-2 d-none d-md-block mt-3 align-self-md-start">
+            <aside>
+              <h6 class="text-danger font-titulos">Te puede interesar esto:</h6>
+              <a
+                href="https://mascotas.tucuman.gov.ar/index.php/veterinarias/"
+                target="_blank"
+                ><img
+                  class="img-fluid"
+                  src="./img/veterinariaTucuman.png"
+                  alt="Una dibujo de un perrito y un gatito"
+              /></a>
+              <a
+                href="https://www.instagram.com/escuelitacanina.tuc/"
+                target="_blank"
+                ><img
+                  class="img-fluid rounded"
+                  src="./img/escuelaCanina.jpg"
+                  alt="Un dibujo de una mujer enseñando a un perro a sentarse"
+              /></a>
+            </aside>
+          </div>
+        </section>
+        <section>
+          <h2 class="text-center my-4 textShadow font-titulos">¡Nuestros productos en promoción!</h2>
+          <div class="row">
+            <div class="col-12 col-md-4 col-lg-3">
+              <div class="card mb-3">
+                <div class="card-header">
+                  <h5 class="card-title text-center">Natural Choice</h5>
+                </div>
+                <img
+                  src="./img/productosEnPromocion/NATURAL-CHOICE-ADULTO-X-20-KG-260x260.jpg.webp"
+                  class="card-img-top h-50"
+                  alt="Alimento para perros Natural Choice"
+                />
+                <div class="card-body">
+                  <p>Precio anterior: <s>$20.000</s></p>
+                  <p>Precio actual: <strong>$17.980</strong></p>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                  <a href="./pages/error404.html" class="btn btn-outline-success">Comprar</a>
+                  <a href="./pages/detalleProducto.html" class="btn btn-outline-primary">Ver más</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-3">
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="card-title text-center">Goodpaws</h5>
+                </div>
+                <img
+                  src="./img/productosEnPromocion/goodpaws.jpg"
+                  class="card-img-top"
+                  alt="Arbol de torre plegable para gatos"
+                />
+                <div class="card-body">
+                  <p>Precio anterior: <s>$32.000</s></p>
+                  <p>Precio actual: <strong>$24.999</strong></p>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                  <a href="./pages/error404.html" class="btn btn-outline-success">Comprar</a>
+                  <a href="./pages/detalleProducto.html" class="btn btn-outline-primary">Ver más</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-3">
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="card-title text-center">Escalera</h5>
+                </div>
+                <img
+                  src="./img/productosEnPromocion/escalera.jpg"
+                  class="card-img-top"
+                  alt="Escalera multi color para aves"
+                />
+                <div class="card-body">
+                  <p>Precio anterior: <s>$3.600</s></p>
+                  <p>Precio actual: <strong>$890</strong></p>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                  <a href="./pages/error404.html" class="btn btn-outline-success">Comprar</a>
+                  <a href="./pages/error404.html" class="btn btn-outline-primary">Ver más</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-3">
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="card-title text-center">Cama de hojas</h5>
+                </div>
+                <img
+                  src="./img/productosEnPromocion/camaParaPeces.jpeg"
+                  class="card-img-top"
+                  alt="Una cama artificial de hojas para peces"
+                />
+                <div class="card-body">
+                  <p>Precio anterior: <s>$12.150</s></p>
+                  <p>Precio actual: <strong>$7.900</strong></p>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                  <a href="./pages/error404.html" class="btn btn-outline-success">Comprar</a>
+                  <a href="./pages/error404.html" class="btn btn-outline-primary">Ver más</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-3">
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="card-title text-center">Aquatic Turtle</h5>
+                </div>
+                <img
+                  src="./img/productosEnPromocion/natural aquatic turtle.jpg"
+                  class="card-img-top"
+                  alt="Un frasco de comida para tortugas"
+                />
+                <div class="card-body">
+                  <p>Precio anterior: <s>$15.000</s></p>
+                  <p>Precio actual: <strong>$12.000</strong></p>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                  <a href="./pages/error404.html" class="btn btn-outline-success">Comprar</a>
+                  <a href="./pages/error404.html" class="btn btn-outline-primary">Ver más</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-3">
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="card-title text-center">Metabolic</h5>
+                </div>
+                <img
+                  src="./img/productosEnPromocion/metabolic.jpg"
+                  class="card-img-top"
+                  alt="Producto de metabolico para perros"
+                />
+                <div class="card-body">
+                  <p>Precio anterior: <s>$10.000</s></p>
+                  <p>Precio actual: <strong>$9.220</strong></p>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                  <a href="./pages/error404.html" class="btn btn-outline-success">Comprar</a>
+                  <a href="./pages/error404.html" class="btn btn-outline-primary">Ver más</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-3">
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="card-title text-center">Corbata Negra</h5>
+                </div>
+                <img
+                  src="./img/productosEnPromocion/Corbata Negra.jpg"
+                  class="card-img-top"
+                  alt="Una corbata negra para gatitos"
+                />
+                <div class="card-body">
+                  <p>Precio anterior: <s>$14.000</s></p>
+                  <p>Precio actual: <strong>$11.300</strong></p>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                  <a href="./pages/error404.html" class="btn btn-outline-success">Comprar</a>
+                  <a href="./pages/error404.html" class="btn btn-outline-primary">Ver más</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-3">
+              <div class="card h-100">
+                <div class="card-header">
+                  <h5 class="card-title text-center">Capa Vampirica</h5>
+                </div>
+                <img
+                  src="./img/productosEnPromocion/Capa vampirica.jpeg"
+                  class="card-img-top"
+                  alt="Una capa vampirica para gatos"
+                />
+                <div class="card-body">
+                  <p>Precio anterior: <s>$18.000</s></p>
+                  <p>Precio actual: <strong>$13.999</strong></p>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                  <a href="./pages/error404.html" class="btn btn-outline-success">Comprar</a>
+                  <a href="./pages/error404.html" class="btn btn-outline-primary">Ver más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="color-footer py-5">
+      <div class="container">
+        <div class="row align-items-start justify-content-center">
+          <div class="col-12 col-lg-3 order-1">
+            <a href="./index.html">
+              <img
+                src="./img/logo/Logo Monocromatico.png"
+                alt="Logo"
+                class="img-fluid footer-logo mb-4"
+              />
+            </a>
+          </div>
+          <article
+            class="col-12 col-md-4 col-lg-3 text-center text-light text-md-start order-2"
+          >
+            <h4 class="mb-3 fs-3">Navegacion</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="./pages/sobreNosotros.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >sobre Nosotros</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pages/contacto.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Contactos</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pages/preguntasFrecuentes.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Preguntas Frecuentes</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pages/error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Iniciar Secion</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pages/registro.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Registro</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pages/error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Perros</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pages/error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >gatos</a
+                >
+              </li>
+            </ul>
+          </article>
+          <article
+            class="col-12 col-md-4 col-lg-3 text-center text-light text-md-start order-2"
+          >
+            <h4 class="mb-3 fs-3">Contacto</h4>
+            <ul class="list-unstyled">
+              <li class="text-dark">
+                <a
+                  href="./pages/error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Email: patitasfelices802@gmail.com
+                </a>
+              </li>
+              <li>
+                <a
+                  href="./error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Teléfono: +54 3817776635</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://maps.app.goo.gl/WMN9dBK8oFT5Uo4i6"
+                  target="_blank"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Dirección: Av. Brígido Terán 127</a
+                >
+              </li>
+            </ul>
+          </article>
+          <article
+            class="col-12 col-md-4 col-lg-3 text-light text-center order-2"
+          >
+            <h4 class="mb-3 fs-3">Contactanos por:</h4>
+            <ul class="list-unstyled d-flex justify-content-center gap-4">
+              <a
+                href="https://www.instagram.com/patitas.felicesoficial/"
+                target="_blank"
+                class="link-light"
+              >
+                <i class="bi bi-instagram fs-2"></i>
+              </a>
+              <a
+                href="https://x.com/Patitas375"
+                target="_blank"
+                class="link-dark"
+              >
+                <i class="bi bi-twitter-x fs-2"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/profile.php?id=61574572914434"
+                target="_blank"
+                class="link-primary"
+              >
+                <i class="bi bi-facebook fs-2"></i>
+              </a>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
