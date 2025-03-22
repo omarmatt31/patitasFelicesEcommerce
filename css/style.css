@@ -216,3 +216,26 @@ body {
   }
 }
 /* Fin Del Codigo index Main */
+
+/* Clases Producto */
+.img-caruosel-producto {
+  height: 400px;
+  object-fit: cover;
+}
+
+/* clases de pageError404*/
+.error-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;  
+}
+
+.btn-error:hover {
+  font-family: "Pacifico", cursive;
+  background: linear-gradient(to right, #a7c7e7, #b8e2c8, #f8c8c4, #fff4e6);  
+}
+
+
+
