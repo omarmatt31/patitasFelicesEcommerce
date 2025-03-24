@@ -1,0 +1,2130 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Accesorios para mascotas de alta calidad a los mejores precios. Cama, juguetes, ropa y más para nuestras mascotas."
+    />
+    <meta
+      name="author"
+      content="Ana Sofia Cisterna, Ignacio Nazar, Ismael Isa, Marcos Joel Tebis, Omar Mattos, Tobias Conde"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Patitas Felices</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg background-color text-white">
+        <div class="container-fluid">
+          <a class="navbar-brand color-gradient hoverMarca" href="../index.html"
+            >Patitas Felices</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav me-auto mb-2 mb-lg-0 d-lg-flex align-items-lg-center"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link color hoverNavbar"
+                  aria-current="page"
+                  href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link color hoverNavbar"
+                  href="./categoriaPerros.html"
+                  >Perros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link color hoverNavbar focus"
+                  href="./categoriaGatos.html"
+                  >Gatos</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle color hoverNavbar"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Otros
+                </a>
+                <ul class="dropdown-menu background-color">
+                  <li>
+                    <a
+                      class="dropdown-item hoverDropdawn color"
+                      href="./categoriaAves.html"
+                      >Aves</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item hoverDropdawn color"
+                      href="./categoriaPeces.html"
+                      >Peces</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle color hoverNavbar"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Información
+                </a>
+                <ul class="dropdown-menu background-color">
+                  <li>
+                    <a
+                      class="dropdown-item hoverDropdawn color"
+                      href="./contacto.html"
+                      >Contacto</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item hoverDropdawn color"
+                      href="./sobreNosotros.html"
+                      >Sobre Nosotros</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item hoverDropdawn color"
+                      href="./preguntasFrecuentes.html"
+                      >Preguntas Frecuentes</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color hoverNavbar" href="./registro.html"
+                  >Registro</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color hoverNavbar" href="./login.html"
+                  >Iniciar Sesion</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-info" type="submit">Buscar</button>
+            </form>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link color-carrito hoverNavbar"
+                  href="./detalleCarrito.html"
+                  ><i class="bi bi-cart4 fs-4"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="colorDeFondoMain">
+      <div class="position-relative contenedorTitulo">
+        <img
+          src="../img/contenedorTitulo/pexels-ezz7-979503.jpg"
+          alt=" imagen de gatitos para fondo de titulo"
+          class="img-fluid"
+        />
+        <h3
+          class="position-absolute top-50 start-50 translate-middle text-center text-white fs-1 subtituloCarousel"
+        >
+          GATOS
+        </h3>
+      </div>
+      <section class="container-fluid">
+        <div class="row">
+          <!-- Menú en móviles (Títulos en línea) -->
+          <div
+            class="col-12 d-flex flex-wrap justify-content-center gap-2 menu-movil d-md-none mb-3"
+          >
+            <a href="#alimentos" class="btn btn-outline-warning text-dark"
+              >Alimentos</a
+            >
+            <a href="#bozales" class="btn btn-outline-danger text-dark"
+              >Bozales</a
+            >
+            <a href="#camas" class="btn btn-outline-success text-dark">Camas</a>
+            <a href="#higiene" class="btn btn-outline-info text-dark"
+              >Higiene</a
+            >
+            <a href="#juguetes" class="btn btn-outline-primary text-dark"
+              >Juguetes</a
+            >
+            <a href="#ropa" class="btn btn-outline-secondary text-dark">Ropa</a>
+            <a href="#salud" class="btn btn-outline-danger text-dark">Salud</a>
+            <a href="#transporte" class="btn btn-outline-info text-dark"
+              >Transporte</a
+            >
+          </div>
+          <!-- Menú lateral en pantallas grandes -->
+          <div
+            class="col-md-2 position-sticky top-0 vh-100 bg-light d-none d-md-block"
+          >
+            <ul class="list-unstyled">
+              <h6 class="mb-3 mt-5 text-info text-center">
+                ¿A DÓNDE QUIERES IR?
+              </h6>
+              <li>
+                <a
+                  href="#alimentos"
+                  class="btn btn-outline-warning text-dark mb-2 w-100"
+                  >Alimentos</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#bozales"
+                  class="btn btn-outline-danger text-dark mb-2 w-100"
+                  >Bozales</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#camas"
+                  class="btn btn-outline-success text-dark mb-2 w-100"
+                  >Camas</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#higiene"
+                  class="btn btn-outline-info text-dark mb-2 w-100"
+                  >Higiene</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#juguetes"
+                  class="btn btn-outline-primary text-dark mb-2 w-100"
+                  >Juguetes</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#ropa"
+                  class="btn btn-outline-secondary text-dark mb-2 w-100"
+                  >Ropa y Calzados</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#salud"
+                  class="btn btn-outline-danger text-dark mb-2 w-100"
+                  >Salud</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#transporte"
+                  class="btn btn-outline-info text-dark mb-2 w-100"
+                  >Transporte</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-10">
+            <div class="row">
+              <!-- Alimentos -->
+              <div class="col-12">
+                <h2 id="alimentos" class="text-center">ALIMENTOS</h2>
+                <div class="row">
+                  <div class="col-12 col-md-6 col-lg-3 mb-3">
+                    <div class="card ">
+                      <div class="card-header">
+                        <h5 class="card-title text-center">
+                          Agility Cats Adultos
+                        </h5>
+                      </div>
+                      <img
+                        src="../img/productos/gatos/alimentos/agility.jpg"
+                        class="card-img-top"
+                        alt="Alimento para gatos agility"
+                      />
+                      <div class="card-body">
+                        <p class="card-text">
+                          Agility para gatos adultos en bolsa de 10Kg.
+                        </p>
+                        <p>Precio: <strong>$50.100 ARS</strong></p>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-success"
+                          >Comprar</a
+                        >
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-primary"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-4 col-lg-3 mb-3">
+                    <div class="card ">
+                      <div class="card-header">
+                        <h5 class="card-title text-center">
+                          Cat Chow Defense Plus
+                        </h5>
+                      </div>
+                      <img
+                        src="../img/productos/gatos/alimentos/cat chow.jpg"
+                        class="card-img-top"
+                        alt="alimento para gatos cat chow"
+                      />
+                      <div class="card-body">
+                        <p class="card-text">
+                          Alimento Cat Chow Defense Plus para gato adulto sabor
+                          pescado y pollo en bolsa de 15 kg
+                        </p>
+                        <p>Precio: <strong>$65.317 ARS</strong></p>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-success"
+                          >Comprar</a
+                        >
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-primary"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-4 col-lg-3 mb-3">
+                    <div class="card">
+                      <div class="card-header">
+                        <h5 class="card-title text-center">CATPRO Adultos</h5>
+                      </div>
+                      <img
+                        src="../img/productos/gatos/alimentos/cat pro.webp"
+                        class="card-img-top"
+                        alt="alimentos para gatos cat pro"
+                      />
+                      <div class="card-body">
+                        <p class="card-text">
+                          Alimento Catpro Premium Castrados/Indoor para gato
+                          adulto x 7.5 kg
+                        </p>
+                        <p>Precio: <strong>$44.025 ARS</strong></p>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-success"
+                          >Comprar</a
+                        >
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-primary"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-4 col-lg-3 mb-3">
+                    <div class="card ">
+                      <div class="card-header">
+                        <h5 class="card-title text-center">CATLIKE Adultos</h5>
+                      </div>
+                      <img
+                        src="../img/productos/gatos/alimentos/catlike.png"
+                        class="card-img-top"
+                        alt="alimento para gatos catlike"
+                      />
+                      <div class="card-body">
+                        <p class="card-text">
+                          Alimento Catlike Gato Adulto x 7,5 Kgs
+                        </p>
+                        <p>Precio: <strong>$32.844 ARS</strong></p>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-success"
+                          >Comprar</a
+                        >
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-primary"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-4 col-lg-3 mb-3">
+                    <div class="card ">
+                      <div class="card-header">
+                        <h5 class="card-title text-center">Purina Excellent</h5>
+                      </div>
+                      <img
+                        src="../img/productos/gatos/alimentos/excellent.jpg.webp"
+                        class="card-img-top"
+                        alt="alimento para gatos excellent"
+                      />
+                      <div class="card-body">
+                        <p class="card-text">
+                          Purina Excellent Adult para Gato Adulto
+                          Pollo/Carne/Arroz de 7.5kg
+                        </p>
+                        <p>Precio: <strong>$44.280 ARS</strong></p>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-success"
+                          >Comprar</a
+                        >
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-primary"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-4 col-lg-3 mb-3">
+                    <div class="card ">
+                      <div class="card-header">
+                        <h5 class="card-title text-center">
+                          Purina Gati Adultos
+                        </h5>
+                      </div>
+                      <img
+                        src="../img/productos/gatos/alimentos/gati.webp"
+                        class="card-img-top"
+                        alt="alimento para gatos gati"
+                      />
+                      <div class="card-body">
+                        <p class="card-text">
+                          Gati Adulto Carne Y Pollo A La Jardinera X 15 Kg
+                        </p>
+                        <p>Precio: <strong>$29.923 ARS</strong></p>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-success"
+                          >Comprar</a
+                        >
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-primary"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-4 col-lg-3 mb-3">
+                    <div class="card ">
+                      <div class="card-header">
+                        <h5 class="card-title text-center">Huellas Gatos</h5>
+                      </div>
+                      <img
+                        src="../img/productos/gatos/alimentos/huellas.webp"
+                        class="card-img-top"
+                        alt="alimento para gatos huellas"
+                      />
+                      <div class="card-body">
+                        <p class="card-text">
+                          Alimento 4 Huellas Gato Adulto X 20 Kg - Animal
+                          Brothers
+                        </p>
+                        <p>Precio: <strong>$52.990 ARS</strong></p>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-success"
+                          >Comprar</a
+                        >
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-primary"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-4 col-lg-3 mb-3">
+                    <div class="card ">
+                      <div class="card-header">
+                        <h5 class="card-title text-center">Whiskas Adultos</h5>
+                      </div>
+                      <img
+                        src="../img/productos/gatos/alimentos/whiskas.jpg"
+                        class="card-img-top"
+                        alt="alimento para gatos whiskas"
+                      />
+                      <div class="card-body">
+                        <p class="card-text">
+                          Alimento Whiskas Adultos Whiskas Gatos para gato
+                          adulto sabor carne en bolsa de 3 kg
+                        </p>
+                        <p>Precio: <strong>$19.990 ARS</strong></p>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-success"
+                          >Comprar</a
+                        >
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-primary"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Bozales -->
+              <div class="col-12">
+                <h2 id="bozales">BOZALES:</h2>
+                <div class="row">
+                  <div class="col-12 col-md-4 col-lg-3 mb-3">
+                    <div class="card ">
+                      <div class="card-header">
+                        <h5 class="card-title text-center">
+                          Bozal Casco Burbuja
+                        </h5>
+                      </div>
+                      <img
+                        src="../img/productos/gatos/bozales/bozal casco burbuja.webp"
+                        class="card-img-top "
+                        alt="bozal para gato burbuja"
+                      />
+                      <div class="card-body">
+                        <p>Precio: <strong>$23.990 ARS</strong></p>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-success"
+                          >Comprar</a
+                        >
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-primary"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-4 col-lg-3 mb-3">
+                    <div class="card ">
+                      <div class="card-header">
+                        <h5 class="card-title text-center">Boza de Tela</h5>
+                      </div>
+                      <img
+                        src="../img/productos/gatos/bozales/bozal de tela.jpg"
+                        class="card-img-top "
+                        alt="bozal para gatos de tela"
+                      />
+                      <div class="card-body">
+                        <p>Precio: <strong>$6.300 ARS</strong></p>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-success"
+                          >Comprar</a
+                        >
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-primary"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-4 col-lg-3 mb-3">
+                    <div class="card ">
+                      <div class="card-header">
+                        <h5 class="card-title text-center">
+                          Bozal Nylon Regulable
+                        </h5>
+                      </div>
+                      <img
+                        src="../img/productos/gatos/bozales/bozal nilon.webp"
+                        class="card-img-top "
+                        alt="bozal para gatos de nylon regulablea"
+                      />
+                      <div class="card-body">
+                        <p>Precio: <strong>$10.270 ARS</strong></p>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-success"
+                          >Comprar</a
+                        >
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-primary"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-4 col-lg-3 mb-3">
+                    <div class="card ">
+                      <div class="card-header">
+                        <h5 class="card-title text-center">
+                          Bozal Gato Transparente
+                        </h5>
+                      </div>
+                      <img
+                        src="../img/productos/gatos/bozales/bozal transparente.jpg"
+                        class="card-img-top "
+                        alt="bozal para gatos transparente"
+                      />
+                      <div class="card-body">
+                        <p>Precio: <strong>$8.300 ARS</strong></p>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-success"
+                          >Comprar</a
+                        >
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-primary"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-4 col-lg-3 mb-3">
+                    <div class="card ">
+                      <div class="card-header">
+                        <h5 class="card-title text-center">Bozal Wintchuk</h5>
+                      </div>
+                      <img
+                        src="../img/productos/gatos/bozales/bozal wintchuk.jpg"
+                        class="card-img-top "
+                        alt="bozal para gato wintchuk"
+                      />
+                      <div class="card-body">
+                        <p>Precio: <strong>$7,500 ARS</strong></p>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-success"
+                          >Comprar</a
+                        >
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-primary"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Camas -->
+              <div class="col-12">
+                <h2 id="camas">CAMAS:</h2>
+                <div class="row">
+                  <div class="col-12 col-md-4 col-lg-3 mb-3">
+                    <div class="card ">
+                      <div class="card-header">
+                        <h5 class="card-title text-center">
+                          Cama Cucha con Igloo
+                        </h5>
+                      </div>
+                      <img
+                        src="../img/productos/gatos/camas/cama con interior.webp"
+                        class="card-img-top "
+                        alt="cama para gatos tipo Igloo"
+                      />
+                      <div class="card-body">
+                        <p>Precio: <strong>$56.300 ARS</strong></p>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-success"
+                          >Comprar</a
+                        >
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-primary"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-4 col-lg-3 mb-3">
+                    <div class="card ">
+                      <div class="card-header">
+                        <h5 class="card-title text-center">
+                          Cama Cucha Fukumaru
+                        </h5>
+                      </div>
+                      <img
+                        src="../img/productos/gatos/camas/cama fukumaru.jpg"
+                        class="card-img-top "
+                        alt="cama para gatos fukumaru"
+                      />
+                      <div class="card-body">
+                        <p>Precio: <strong>$31.000 ARS</strong></p>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-success"
+                          >Comprar</a
+                        >
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-primary"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-4 col-lg-3 mb-3">
+                    <div class="card ">
+                      <div class="card-header">
+                        <h5 class="card-title text-center">
+                          Cama Cucha Pet Step
+                        </h5>
+                      </div>
+                      <img
+                        src="../img/productos/gatos/camas/cama pet step.jpg"
+                        class="card-img-top "
+                        alt="cama para gatos marca pet step"
+                      />
+                      <div class="card-body">
+                        <p>Precio: <strong>$57.000 ARS</strong></p>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-success"
+                          >Comprar</a
+                        >
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-primary"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-4 col-lg-3 mb-3">
+                    <div class="card ">
+                      <div class="card-header">
+                        <h5 class="card-title text-center">
+                          Cama Cucha Redonda
+                        </h5>
+                      </div>
+                      <img
+                        src="../img/productos/gatos/camas/cama redonda.jpg"
+                        class="card-img-top "
+                        alt="cama para gatos redonda felpa"
+                      />
+                      <div class="card-body">
+                        <p>Precio: <strong>$15.000 ARS</strong></p>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-success"
+                          >Comprar</a
+                        >
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-primary"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-4 col-lg-3 mb-3">
+                    <div class="card ">
+                      <div class="card-header">
+                        <h5 class="card-title text-center">
+                          Cama Cucha Madera
+                        </h5>
+                      </div>
+                      <img
+                        src="../img/productos/gatos/camas/cucha de madera.webp"
+                        class="card-img-top "
+                        alt="cama para gatos de madera"
+                      />
+                      <div class="card-body">
+                        <p>Precio: <strong>$48.990 ARS</strong></p>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-success"
+                          >Comprar</a
+                        >
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-primary"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Higiene -->
+                  <div class="col-12">
+                    <h2 id="higiene">Higiene:</h2>
+                    <div class="row">
+                      <div class="col-12 col-md-4 col-lg-3 mb-3">
+                        <div class="card ">
+                          <div class="card-header">
+                            <h5 class="card-title text-center">
+                              Cepillo de Vapor Rosa/Gris
+                            </h5>
+                          </div>
+                          <img
+                            src="../img/productos/gatos/higiene/cepillo de vapor rosa con gris.webp"
+                            class="card-img-top "
+                            alt="cepillo para gatos con vapor rosa y gris"
+                          />
+                          <div class="card-body">
+                            <p>Precio: <strong>$5.490 ARS</strong></p>
+                          </div>
+                          <div
+                            class="card-footer d-flex justify-content-between"
+                          >
+                            <a
+                              href="../pages/error404.html"
+                              class="btn btn-outline-success"
+                              >Comprar</a
+                            >
+                            <a
+                              href="../pages/error404.html"
+                              class="btn btn-outline-primary"
+                              >Ver más</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-12 col-md-4 col-lg-3 mb-3">
+                        <div class="card ">
+                          <div class="card-header">
+                            <h5 class="card-title text-center">
+                              Cepillo de Vapor Verde/Naranja
+                            </h5>
+                          </div>
+                          <img
+                            src="../img/productos/gatos/higiene/cepillo de vapor verde con naranja.jpg"
+                            class="card-img-top "
+                            alt="cepillo para gatos con vapor verde y naranja"
+                          />
+                          <div class="card-body">
+                            <p>Precio: <strong>$5.490 ARS</strong></p>
+                          </div>
+                          <div
+                            class="card-footer d-flex justify-content-between"
+                          >
+                            <a
+                              href="../pages/error404.html"
+                              class="btn btn-outline-success"
+                              >Comprar</a
+                            >
+                            <a
+                              href="../pages/error404.html"
+                              class="btn btn-outline-primary"
+                              >Ver más</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-12 col-md-4 col-lg-3 mb-3">
+                        <div class="card ">
+                          <div class="card-header">
+                            <h5 class="card-title text-center">
+                              Purina Dentalife
+                            </h5>
+                          </div>
+                          <img
+                            src="../img/productos/gatos/higiene/dentalife.jpg"
+                            class="card-img-top "
+                            alt="golosinas dentalales para gatos"
+                          />
+                          <div class="card-body">
+                            <p class="card-text">
+                              Golosinas Dentales para Gatos
+                            </p>
+                            <p>Precio: <strong>$92.900 ARS</strong></p>
+                          </div>
+                          <div
+                            class="card-footer d-flex justify-content-between"
+                          >
+                            <a
+                              href="../pages/error404.html"
+                              class="btn btn-outline-success"
+                              >Comprar</a
+                            >
+                            <a
+                              href="../pages/error404.html"
+                              class="btn btn-outline-primary"
+                              >Ver más</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Juguetes -->
+                      <div class="col-12">
+                        <h2 id="juguetes">JUGUETES:</h2>
+                        <div class="row">
+                          <div class="col-12 col-md-4 col-lg-3 mb-3">
+                            <div class="card ">
+                              <div class="card-header">
+                                <h5 class="card-title text-center">
+                                  Jueguete Bola de Hierva Gatera
+                                </h5>
+                              </div>
+                              <img
+                                src="../img/productos/gatos/juguetes/juguete con bola de hierba gatera.png"
+                                class="card-img-top "
+                                alt="jueguete para gatos bola de hierva"
+                              />
+                              <div class="card-body">
+                                <p>Precio: <strong>$4.400 ARS</strong></p>
+                              </div>
+                              <div
+                                class="card-footer d-flex justify-content-between"
+                              >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-success"
+                                  >Comprar</a
+                                >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-primary"
+                                  >Ver más</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-12 col-md-4 col-lg-3 mb-3">
+                            <div class="card ">
+                              <div class="card-header">
+                                <h5 class="card-title text-center">
+                                  Pelota Interactiva Ball-e USB
+                                </h5>
+                              </div>
+                              <img
+                                src="../img/productos/gatos/juguetes/pelotas de hule.webp"
+                                class="card-img-top "
+                                alt="juegue para gato pelota interactiva con usb"
+                              />
+                              <div class="card-body">
+                                <p>Precio: <strong>$15.000 ARS</strong></p>
+                              </div>
+                              <div
+                                class="card-footer d-flex justify-content-between"
+                              >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-success"
+                                  >Comprar</a
+                                >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-primary"
+                                  >Ver más</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-12 col-md-4 col-lg-3 mb-3">
+                            <div class="card ">
+                              <div class="card-header">
+                                <h5 class="card-title text-center">
+                                  Ratón a cuerda
+                                </h5>
+                              </div>
+                              <img
+                                src="../img/productos/gatos/juguetes/raton gigwi.jpg"
+                                class="card-img-top "
+                                alt="juegue para gato raton a cuerda"
+                              />
+                              <div class="card-body">
+                                <p>Precio: <strong>$2.900 ARS</strong></p>
+                              </div>
+                              <div
+                                class="card-footer d-flex justify-content-between"
+                              >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-success"
+                                  >Comprar</a
+                                >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-primary"
+                                  >Ver más</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-12 col-md-4 col-lg-3 mb-3">
+                            <div class="card ">
+                              <div class="card-header">
+                                <h5 class="card-title text-center">
+                                  Torre Catch The Balls
+                                </h5>
+                              </div>
+                              <img
+                                src="../img/productos/gatos/juguetes/torre con pelotas.webp"
+                                class="card-img-top "
+                                alt="juegue para gato torre de pelotitas"
+                              />
+                              <div class="card-body">
+                                <p>Precio: <strong>$18.233 ARS</strong></p>
+                              </div>
+                              <div
+                                class="card-footer d-flex justify-content-between"
+                              >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-success"
+                                  >Comprar</a
+                                >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-primary"
+                                  >Ver más</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-12 col-md-4 col-lg-3 mb-3">
+                            <div class="card ">
+                              <div class="card-header">
+                                <h5 class="card-title text-center">
+                                  Varita Pescado de Peluche
+                                </h5>
+                              </div>
+                              <img
+                                src="../img/productos/gatos/juguetes/varita con pescado de juguete.jpg"
+                                class="card-img-top "
+                                alt="juegue para gato caña/varita con pescado de peluche"
+                              />
+                              <div class="card-body">
+                                <p>Precio: <strong>$3.000 ARS</strong></p>
+                              </div>
+                              <div
+                                class="card-footer d-flex justify-content-between"
+                              >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-success"
+                                  >Comprar</a
+                                >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-primary"
+                                  >Ver más</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-12 col-md-4 col-lg-3 mb-3">
+                            <div class="card ">
+                              <div class="card-header">
+                                <h5 class="card-title text-center">
+                                  Varita con Plumas
+                                </h5>
+                              </div>
+                              <img
+                                src="../img/productos/gatos/juguetes/varita con plumas.jpg"
+                                class="card-img-top "
+                                alt="juegue para gato varita con plumas"
+                              />
+                              <div class="card-body">
+                                <p>Precio: <strong>$3.000 ARS</strong></p>
+                              </div>
+                              <div
+                                class="card-footer d-flex justify-content-between"
+                              >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-success"
+                                  >Comprar</a
+                                >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-primary"
+                                  >Ver más</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Ropa y calzados -->
+                      <div class="col-12">
+                        <h2 id="ropa">ROPA Y CALZADOS:</h2>
+                        <div class="row">
+                          <div class="col-12 col-md-4 col-lg-3 mb-3">
+                            <div class="card ">
+                              <div class="card-header">
+                                <h5 class="card-title text-center">
+                                  Camisa Amarilla
+                                </h5>
+                              </div>
+                              <img
+                                src="../img/productos/gatos/ropaYcalzado/camisa amarilla.jpg"
+                                class="card-img-top "
+                                alt="camisa amarilla para gatos"
+                              />
+                              <div class="card-body">
+                                <p>Precio: <strong>$18.000 ARS</strong></p>
+                              </div>
+                              <div
+                                class="card-footer d-flex justify-content-between"
+                              >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-success"
+                                  >Comprar</a
+                                >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-primary"
+                                  >Ver más</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-12 col-md-4 col-lg-3 mb-3">
+                            <div class="card ">
+                              <div class="card-header">
+                                <h5 class="card-title text-center">
+                                  Camisa Celeste
+                                </h5>
+                              </div>
+                              <img
+                                src="../img/productos/gatos/ropaYcalzado/camisa celeste.jpg"
+                                class="card-img-top "
+                                alt="camisa celeste para gatos"
+                              />
+                              <div class="card-body">
+                                <p>Precio: <strong>$18.000 ARS</strong></p>
+                              </div>
+                              <div
+                                class="card-footer d-flex justify-content-between"
+                              >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-success"
+                                  >Comprar</a
+                                >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-primary"
+                                  >Ver más</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-12 col-md-4 col-lg-3 mb-3">
+                            <div class="card ">
+                              <div class="card-header">
+                                <h5 class="card-title text-center">
+                                  Campera Negra/Gris
+                                </h5>
+                              </div>
+                              <img
+                                src="../img/productos/gatos/ropaYcalzado/campera negra con gris.jpg"
+                                class="card-img-top "
+                                alt="campera negra y gris para gatos"
+                              />
+                              <div class="card-body">
+                                <p>Precio: <strong>$30.500 ARS</strong></p>
+                              </div>
+                              <div
+                                class="card-footer d-flex justify-content-between"
+                              >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-success"
+                                  >Comprar</a
+                                >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-primary"
+                                  >Ver más</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-12 col-md-4 col-lg-3 mb-3">
+                            <div class="card ">
+                              <div class="card-header">
+                                <h5 class="card-title text-center">
+                                  Chaleco Jean
+                                </h5>
+                              </div>
+                              <img
+                                src="../img/productos/gatos/ropaYcalzado/chaleco baquera.jpg"
+                                class="card-img-top "
+                                alt="chaleco de jean para gatos"
+                              />
+                              <div class="card-body">
+                                <p>Precio: <strong>$19.800 ARS</strong></p>
+                              </div>
+                              <div
+                                class="card-footer d-flex justify-content-between"
+                              >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-success"
+                                  >Comprar</a
+                                >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-primary"
+                                  >Ver más</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-12 col-md-4 col-lg-3 mb-3">
+                            <div class="card ">
+                              <div class="card-header">
+                                <h5 class="card-title text-center">
+                                  Chaleco de Lana
+                                </h5>
+                              </div>
+                              <img
+                                src="../img/productos/gatos/ropaYcalzado/chaleco de lana gris.jpg"
+                                class="card-img-top "
+                                alt="chaleco de lana para gatos"
+                              />
+                              <div class="card-body">
+                                <p>Precio: <strong>$7.900 ARS</strong></p>
+                              </div>
+                              <div
+                                class="card-footer d-flex justify-content-between"
+                              >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-success"
+                                  >Comprar</a
+                                >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-primary"
+                                  >Ver más</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-12 col-md-4 col-lg-3 mb-3">
+                            <div class="card ">
+                              <div class="card-header">
+                                <h5 class="card-title text-center">
+                                  Chaleco Verde
+                                </h5>
+                              </div>
+                              <img
+                                src="../img/productos/gatos/ropaYcalzado/chaleco verde.jpg"
+                                class="card-img-top "
+                                alt="chaleco verde para gatos"
+                              />
+                              <div class="card-body">
+                                <p>Precio: <strong>$18.000 ARS</strong></p>
+                              </div>
+                              <div
+                                class="card-footer d-flex justify-content-between"
+                              >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-success"
+                                  >Comprar</a
+                                >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-primary"
+                                  >Ver más</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-12 col-md-4 col-lg-3 mb-3">
+                            <div class="card ">
+                              <div class="card-header">
+                                <h5 class="card-title text-center">
+                                  Corbata Negra Punto Amarillos
+                                </h5>
+                              </div>
+                              <img
+                                src="../img/productos/gatos/ropaYcalzado/corbata negra con puntos amarillos.jpg"
+                                class="card-img-top "
+                                alt="corbata negra con punto amarillos para gatos"
+                              />
+                              <div class="card-body">
+                                <p>Precio: <strong>$4.490 ARS</strong></p>
+                              </div>
+                              <div
+                                class="card-footer d-flex justify-content-between"
+                              >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-success"
+                                  >Comprar</a
+                                >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-primary"
+                                  >Ver más</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-12 col-md-4 col-lg-3 mb-3">
+                            <div class="card ">
+                              <div class="card-header">
+                                <h5 class="card-title text-center">
+                                  Gorro Melena de León
+                                </h5>
+                              </div>
+                              <img
+                                src="../img/productos/gatos/ropaYcalzado/gorro melena de leon.jpg"
+                                class="card-img-top "
+                                alt="gorro melena de leon para gatos"
+                              />
+                              <div class="card-body">
+                                <p>Precio: <strong>$11.000 ARS</strong></p>
+                              </div>
+                              <div
+                                class="card-footer d-flex justify-content-between"
+                              >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-success"
+                                  >Comprar</a
+                                >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-primary"
+                                  >Ver más</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-12 col-md-4 col-lg-3 mb-3">
+                            <div class="card ">
+                              <div class="card-header">
+                                <h5 class="card-title text-center">
+                                  Media Antideslizante para Gatos
+                                </h5>
+                              </div>
+                              <img
+                                src="../img/productos/gatos/ropaYcalzado/medias.webp"
+                                class="card-img-top "
+                                alt="medias antideslizante para gatos"
+                              />
+                              <div class="card-body">
+                                <p>Precio: <strong>$5.800 ARS</strong></p>
+                              </div>
+                              <div
+                                class="card-footer d-flex justify-content-between"
+                              >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-success"
+                                  >Comprar</a
+                                >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-primary"
+                                  >Ver más</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-12 col-md-4 col-lg-3 mb-3">
+                        <div class="card ">
+                          <div class="card-header">
+                            <h5 class="card-title text-center">
+                              Botitas Antideslizantes
+                            </h5>
+                          </div>
+                          <img
+                            src="../img/productos/gatos/ropaYcalzado/zapatos.jpg"
+                            class="card-img-top "
+                            alt="botitas antideslizante para gatos"
+                          />
+                          <div class="card-body">
+                            <p>Precio: <strong>$11.200 ARS</strong></p>
+                          </div>
+                          <div
+                            class="card-footer d-flex justify-content-between"
+                          >
+                            <a
+                              href="../pages/error404.html"
+                              class="btn btn-outline-success"
+                              >Comprar</a
+                            >
+                            <a
+                              href="../pages/error404.html"
+                              class="btn btn-outline-primary"
+                              >Ver más</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Salud -->
+                  <div class="col-12">
+                    <h2 id="salud">SALUD:</h2>
+                    <div class="row">
+                      <div class="col-12 col-md-4 col-lg-3 mb-3">
+                        <div class="card ">
+                          <div class="card-header">
+                            <h5 class="card-title text-center">
+                              Pipeta Advocate
+                            </h5>
+                          </div>
+                          <img
+                            src="../img/productos/gatos/salud/advocate.png"
+                            class="card-img-top "
+                            alt="pipeta para gatos"
+                          />
+                          <div class="card-body">
+                            <p class="card-text">
+                              Pipeta Gatos Advocate Hasta 4kg Elanco
+                            </p>
+                            <p>Precio: <strong>$20.400 ARS</strong></p>
+                          </div>
+                          <div
+                            class="card-footer d-flex justify-content-between"
+                          >
+                            <a
+                              href="../pages/error404.html"
+                              class="btn btn-outline-success"
+                              >Comprar</a
+                            >
+                            <a
+                              href="../pages/error404.html"
+                              class="btn btn-outline-primary"
+                              >Ver más</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-12 col-md-4 col-lg-3 mb-3">
+                        <div class="card ">
+                          <div class="card-header">
+                            <h5 class="card-title text-center">Cisticalm</h5>
+                          </div>
+                          <img
+                            src="../img/productos/gatos/salud/cisticalm.jpg"
+                            class="card-img-top "
+                            alt="medicamento para salud urinaria de los gatos"
+                          />
+                          <div class="card-body">
+                            <p class="card-text">
+                              Cisticalm X30 Comp Suplemento Para Felinos Salud
+                              Urinaria
+                            </p>
+                            <p>Precio: <strong>$25.500 ARS</strong></p>
+                          </div>
+                          <div
+                            class="card-footer d-flex justify-content-between"
+                          >
+                            <a
+                              href="../pages/error404.html"
+                              class="btn btn-outline-success"
+                              >Comprar</a
+                            >
+                            <a
+                              href="../pages/error404.html"
+                              class="btn btn-outline-primary"
+                              >Ver más</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-12 col-md-4 col-lg-3 mb-3">
+                        <div class="card ">
+                          <div class="card-header">
+                            <h5 class="card-title text-center">Gerioox</h5>
+                          </div>
+                          <img
+                            src="../img/productos/gatos/salud/gerioox.png"
+                            class="card-img-top "
+                            alt="medicamento para mantener la buena salud de los gatos"
+                          />
+                          <div class="card-body">
+                            <p class="card-text">
+                              Gerioox 30 Comp. Condroprotector Y Antioxidante
+                              Perro Y Gato
+                            </p>
+                            <p>Precio: <strong>$32.000 ARS</strong></p>
+                          </div>
+                          <div
+                            class="card-footer d-flex justify-content-between"
+                          >
+                            <a
+                              href="../pages/error404.html"
+                              class="btn btn-outline-success"
+                              >Comprar</a
+                            >
+                            <a
+                              href="../pages/error404.html"
+                              class="btn btn-outline-primary"
+                              >Ver más</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-12 col-md-4 col-lg-3 mb-3">
+                        <div class="card ">
+                          <div class="card-header">
+                            <h5 class="card-title text-center">
+                              Inadrim Gotas
+                            </h5>
+                          </div>
+                          <img
+                            src="../img/productos/perros/salud/credelio.jpg"
+                            class="card-img-top "
+                            alt="tranquilizante para gatos"
+                          />
+                          <div class="card-body">
+                            <p class="card-text">
+                              Tranquilizante neuroléptico en gotas orales para
+                              perros y gatos.
+                            </p>
+                            <p>Precio: <strong>$3.000 ARS</strong></p>
+                          </div>
+                          <div
+                            class="card-footer d-flex justify-content-between"
+                          >
+                            <a
+                              href="../pages/error404.html"
+                              class="btn btn-outline-success"
+                              >Comprar</a
+                            >
+                            <a
+                              href="../pages/error404.html"
+                              class="btn btn-outline-primary"
+                              >Ver más</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-12 col-md-4 col-lg-3 mb-3">
+                        <div class="card ">
+                          <div class="card-header">
+                            <h5 class="card-title text-center">Invermic</h5>
+                          </div>
+                          <img
+                            src="../img/productos/gatos/salud/invermic.jpg"
+                            class="card-img-top "
+                            alt="antiparasitario para gatos"
+                          />
+                          <div class="card-body">
+                            <p class="card-text">
+                              Potente antihelmíntico de uso oral y acción
+                              sistémica
+                            </p>
+                            <p>Precio: <strong>$15.400 ARS</strong></p>
+                          </div>
+                          <div
+                            class="card-footer d-flex justify-content-between"
+                          >
+                            <a
+                              href="../pages/error404.html"
+                              class="btn btn-outline-success"
+                              >Comprar</a
+                            >
+                            <a
+                              href="../pages/error404.html"
+                              class="btn btn-outline-primary"
+                              >Ver más</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-12 col-md-4 col-lg-3 mb-3">
+                        <div class="card ">
+                          <div class="card-header">
+                            <h5 class="card-title text-center">Meloxivet</h5>
+                          </div>
+                          <img
+                            src="../img/productos/gatos/salud/meloxivet.jpg"
+                            class="card-img-top "
+                            alt="Antiinflamatorio pos operatorios para gatos"
+                          />
+                          <div class="card-body">
+                            <p class="card-text">
+                              Antiinflamatorio no esteroide (meloxicam) en gotas
+                              para uso en caninos y felinos
+                            </p>
+                            <p>Precio: <strong>$11.000 ARS</strong></p>
+                          </div>
+                          <div
+                            class="card-footer d-flex justify-content-between"
+                          >
+                            <a
+                              href="../pages/error404.html"
+                              class="btn btn-outline-success"
+                              >Comprar</a
+                            >
+                            <a
+                              href="../pages/error404.html"
+                              class="btn btn-outline-primary"
+                              >Ver más</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-12 col-md-4 col-lg-3 mb-3">
+                        <div class="card ">
+                          <div class="card-header">
+                            <h5 class="card-title text-center">
+                              Petonic Cats Recuperation
+                            </h5>
+                          </div>
+                          <img
+                            src="../img/productos/gatos/salud/petonic.png"
+                            class="card-img-top "
+                            alt="medicamento para el pos cirugia de gatos"
+                          />
+                          <div class="card-body">
+                            <p class="card-text">
+                              Fórmula Nutracéutica de recuperación para gatos
+                              pos-cirugia
+                            </p>
+                            <p>Precio: <strong>$9.800 ARS</strong></p>
+                          </div>
+                          <div
+                            class="card-footer d-flex justify-content-between"
+                          >
+                            <a
+                              href="../pages/error404.html"
+                              class="btn btn-outline-success"
+                              >Comprar</a
+                            >
+                            <a
+                              href="../pages/error404.html"
+                              class="btn btn-outline-primary"
+                              >Ver más</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-12 col-md-4 col-lg-3 mb-3">
+                        <div class="card ">
+                          <div class="card-header">
+                            <h5 class="card-title text-center">
+                              Silimarina Gatos
+                            </h5>
+                          </div>
+                          <img
+                            src="../img/productos/gatos/salud/silimarina.png"
+                            class="card-img-top "
+                            alt="medicamento para la salud del gato"
+                          />
+                          <div class="card-body">
+                            <p class="card-text">
+                              Trihepat, protector y regenerador de la célula
+                              hepática, con acciones coleréticas y colagogas.
+                              Reactiva y potencia las funciones hepatobiliares.
+                            </p>
+                            <p>Precio: <strong>$28.800 ARS</strong></p>
+                          </div>
+                          <div
+                            class="card-footer d-flex justify-content-between"
+                          >
+                            <a
+                              href="../pages/error404.html"
+                              class="btn btn-outline-success"
+                              >Comprar</a
+                            >
+                            <a
+                              href="../pages/error404.html"
+                              class="btn btn-outline-primary"
+                              >Ver más</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-12 col-md-4 col-lg-3 mb-3">
+                        <div class="card ">
+                          <div class="card-header">
+                            <h5 class="card-title text-center">
+                              Total Full LC
+                            </h5>
+                          </div>
+                          <img
+                            src="../img/productos/gatos/salud/total full lo.jpg"
+                            class="card-img-top "
+                            alt="antiparasitario para gatos"
+                          />
+                          <div class="card-body">
+                            <p class="card-text">
+                              Antiparasitario interno de amplio espectro.
+                            </p>
+                            <p>Precio: <strong>$3.500 ARS</strong></p>
+                          </div>
+                          <div
+                            class="card-footer d-flex justify-content-between"
+                          >
+                            <a
+                              href="../pages/error404.html"
+                              class="btn btn-outline-success"
+                              >Comprar</a
+                            >
+                            <a
+                              href="../pages/error404.html"
+                              class="btn btn-outline-primary"
+                              >Ver más</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Transporte -->
+                      <div class="col-12">
+                        <h2 id="transporte">TRANSPORTE:</h2>
+                        <div class="row">
+                          <div class="col-12 col-md-4 col-lg-3 mb-3">
+                            <div class="card ">
+                              <div class="card-header">
+                                <h5 class="card-title text-center">
+                                  Caja Ferpas Atlas
+                                </h5>
+                              </div>
+                              <img
+                                src="../img/productos/gatos/transporte/caja ferplas atlas.webp"
+                                class="card-img-top "
+                                alt="caja de transporte de marca Ferpas Atlas"
+                              />
+                              <div class="card-body">
+                                <p>Precio: <strong>$53.900 ARS</strong></p>
+                              </div>
+                              <div
+                                class="card-footer d-flex justify-content-between"
+                              >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-success"
+                                  >Comprar</a
+                                >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-primary"
+                                  >Ver más</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-12 col-md-4 col-lg-3 mb-3">
+                            <div class="card ">
+                              <div class="card-header">
+                                <h5 class="card-title text-center">
+                                  Caja Ferplas
+                                </h5>
+                              </div>
+                              <img
+                                src="../img/productos/gatos/transporte/caja jaula celeste.webp"
+                                class="card-img-top "
+                                alt="caja de Transporte marca Ferplas"
+                              />
+                              <div class="card-body">
+                                <p>Precio: <strong>$62.900 ARS</strong></p>
+                              </div>
+                              <div
+                                class="card-footer d-flex justify-content-between"
+                              >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-success"
+                                  >Comprar</a
+                                >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-primary"
+                                  >Ver más</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-12 col-md-4 col-lg-3 mb-3">
+                            <div class="card ">
+                              <div class="card-header">
+                                <h5 class="card-title text-center">
+                                  Mochila Burbuja Celeste
+                                </h5>
+                              </div>
+                              <img
+                                src="../img/productos/gatos/transporte/mochila capsula celeste.jpg"
+                                class="card-img-top "
+                                alt="mochila de transporte celeste para gatos"
+                              />
+                              <div class="card-body">
+                                <p>Precio: <strong>$49.990 ARS</strong></p>
+                              </div>
+                              <div
+                                class="card-footer d-flex justify-content-between"
+                              >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-success"
+                                  >Comprar</a
+                                >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-primary"
+                                  >Ver más</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-12 col-md-4 col-lg-3 mb-3">
+                            <div class="card ">
+                              <div class="card-header">
+                                <h5 class="card-title text-center">
+                                  Mochila Burbuja Negra
+                                </h5>
+                              </div>
+                              <img
+                                src="../img/productos/gatos/transporte/mochila capsula negra.jpg"
+                                class="card-img-top "
+                                alt="mochila de transporte negra para gatos"
+                              />
+                              <div class="card-body">
+                                <p>Precio: <strong>$49.990 ARS</strong></p>
+                              </div>
+                              <div
+                                class="card-footer d-flex justify-content-between"
+                              >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-success"
+                                  >Comprar</a
+                                >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-primary"
+                                  >Ver más</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-12 col-md-4 col-lg-3 mb-3">
+                            <div class="card ">
+                              <div class="card-header">
+                                <h5 class="card-title text-center">
+                                  Mochila Burbuja Gadnic
+                                </h5>
+                              </div>
+                              <img
+                                src="../img/productos/gatos/transporte/mochila gadnic.jpg"
+                                class="card-img-top "
+                                alt="mochila de transporte gadnic para gatos"
+                              />
+                              <div class="card-body">
+                                <p>Precio: <strong>$57.900 ARS</strong></p>
+                              </div>
+                              <div
+                                class="card-footer d-flex justify-content-between"
+                              >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-success"
+                                  >Comprar</a
+                                >
+                                <a
+                                  href="../pages/error404.html"
+                                  class="btn btn-outline-primary"
+                                  >Ver más</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="color-footer py-5">
+      <div class="container">
+        <div class="row align-items-start justify-content-center">
+          <div class="col-12 col-lg-3 order-1">
+            <a href="../index.html">
+              <img
+                src="../img/logo/Logo Monocromatico.png"
+                alt="Logo"
+                class="img-fluid footer-logo mb-4"
+              />
+            </a>
+          </div>
+          <article
+            class="col-12 col-md-4 col-lg-3 text-center text-light text-md-start order-2"
+          >
+            <h4 class="mb-3 fs-3">Navegación</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="./sobreNosotros.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Sobre Nosotros</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./contacto.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Contactos</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./preguntasFrecuentes.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Preguntas Frecuentes</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./login.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Iniciar Sesión</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./registro.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Registro</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./categoriaPerros.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Perros</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./categoriaGatos.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Gatos</a
+                >
+              </li>
+            </ul>
+          </article>
+          <article
+            class="col-12 col-md-4 col-lg-3 text-center text-light text-md-start order-2"
+          >
+            <h4 class="mb-3 fs-3">Contacto</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="mailto:patitasfelices802@gmail.com"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  ><i class="bi bi-envelope-fill"></i> patitasfelices802@gmail.com
+                </a>
+              </li>
+              <li>
+                <a
+                  href="tel:+543817776635"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  ><i class="bi bi-telephone-fill"></i> +54 3817776635</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://maps.app.goo.gl/WMN9dBK8oFT5Uo4i6"
+                  target="_blank"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  ><i class="bi bi-geo-alt-fill"></i> San Miguel de Tucuman- Av. Brígido Terán 127</a
+                >
+              </li>
+            </ul>
+          </article>
+          <article class="col-12 col-md-4 col-lg-3 text-light text-center order-2">
+            <h4 class="mb-3 fs-3">Síguenos en:</h4>
+            <ul class="list-unstyled d-flex justify-content-center gap-4">
+                <li>
+                    <a
+                        href="https://www.instagram.com/patitas.felicesoficial/"
+                        target="_blank"
+                    >
+                        <i class="bi bi-instagram link-light fs-2"></i>
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://x.com/Patitas375"
+                        target="_blank"
+                    >
+                        <i class="bi bi-twitter-x link-light fs-2"></i>
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://www.facebook.com/profile.php?id=61574572914434"
+                        target="_blank"
+                    >
+                        <i class="bi bi-facebook link-light fs-2"></i>
+                    </a>
+                </li>
+            </ul>
+        </article>
+        
+      </div>
+        </div>
+        <div class="container">
+          <div class="row my-5">
+            <div class="col-12 col-md-3 mb-3">
+              <h2 class="text-light">Métodos de Pago</h2>
+            </div>
+            <div class="col-12 col-md-7 mb-3">
+                <div class="d-flex flex-wrap gap-3">
+                  <img src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/visa@2x.png" alt="Visa" class="foto-tarjeta">
+                  <img src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/mastercard@2x.png" alt="Mastercard" class="foto-tarjeta">
+                  <img src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/amex@2x.png" alt="American Express" class="foto-tarjeta">
+                  <img src="https://getlogovector.com/wp-content/uploads/2023/12/mercado-pago-logo-vector-2023.png" alt="Mercado Pago" class="foto-tarjeta">
+                  <img src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/pagofacil@2x.png" alt="Pago Fácil" class="foto-tarjeta">
+                  <img src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/rapipago@2x.png" alt="Rapipago" class="foto-tarjeta">
+                  <img src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/ar/tarjeta-naranja@2x.png" alt="Tarjeta Naranja" class="foto-tarjeta">
+                  <img src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/ar/cabal@2x.png" alt="Cabal" class="foto-tarjeta">
+                  <img src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/maestro@2x.png" alt="Maestro" class="foto-tarjeta">
+                  <img src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/ar/tarjeta-shopping@2x.png" alt="tarjeta shoping" class="foto-tarjeta">
+                  <img src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/diners@2x.png" alt="diners clubs" class="foto-tarjeta">
+                  <img src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/cash@2x.png" alt="efectivo" class="foto-tarjeta">
+                  <img src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/ar/argencard@2x.png" alt="argencard" class="foto-tarjeta">
+                  <img src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/visadebit@2x.png" alt="visa debito" class="foto-tarjeta">
+                  <img src="https://www.reasonwhy.es/media/library/santander-restyling-reasonwhy.png" alt="santander" class="foto-tarjeta">
+                  </div>
+            </div>
+            <div class="col-12 col-md-2 text-center text-md-end">
+              <a href="https://www.afip.gob.ar" target="_blank">
+                <img src="https://www.afip.gob.ar/images/f960/DATAWEB.jpg" 
+                     alt="Data Fiscal AFIP"  
+                     class="img-fluid data">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
