@@ -198,8 +198,8 @@
             <div
               class="carousel-caption position-absolute end-50 bottom-0 text-start w-50 fadeInTexto"
             >
-              <h3 class="titulosCarousel fs-1">25% OFF</h3>
-              <p class="subtituloCarousel fs-2">
+              <h3 class="titulosCarousel fs-1 textShadow">25% OFF</h3>
+              <p class="subtituloCarousel fs-2 textShadow">
                 GIMNASIOS Y RASCADORES PARA GATOS
               </p>
             </div>
@@ -213,7 +213,7 @@
             <div
               class="carousel-caption position-absolute end-50 bottom-0 text-start w-50 fadeInTexto"
             >
-              <h3 class="titulosCarousel fs-1">12 Cuotas Sin Interes</h3>
+              <h3 class="titulosCarousel fs-1 textShadow">12 Cuotas Sin Interes</h3>
               <img
                 src="./img/tarjetas-credito-logos.png"
                 alt="tarjetas de credito"
@@ -230,8 +230,8 @@
             <div
               class="carousel-caption position-absolute end-50 bottom-0 text-start w-50 fadeInTexto"
             >
-              <h3 class="titulosCarousel fs-1">10% Dto. en la 2° unidad</h3>
-              <p class="subtituloCarousel fs-2">EN ALIMENTO PARA PERROS</p>
+              <h3 class="titulosCarousel fs-1textShadow">10% Dto. en la 2° unidad</h3>
+              <p class="subtituloCarousel fs-2 textShadow">EN ALIMENTO PARA PERROS</p>
             </div>
           </div>
         </div>
@@ -254,8 +254,8 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <div class="container-fluid">
-        <section class="d-flex align-items-center">
+      <div class="container my-5">
+        <section class="d-flex align-items-center pb-4">
           <div class="row me-1 align-self-start">
             <h1 class="text-center textShadow font-titulos">
               Tu Mascota, Tu Familia:<br />
@@ -310,6 +310,7 @@
             </aside>
           </div>
         </section>
+        <div class="lineaSombraInferior"></div>
         <section>
           <h2 class="text-center my-4 textShadow font-titulos">
             ¡Nuestros productos en promoción!
@@ -547,21 +548,54 @@
               </div>
             </div>
           </div>
+          <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+              <li class="page-item">
+                <a class="page-link" href="index.html" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link active" href="index.html">1</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="./pages/error404.html">2</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="./pages/error404.html">3</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="./pages/error404.html" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
         </section>
+        <div class="lineaSombraInferior"></div>
         <section>
-          <h2 class="text-center textShadow font-titulos my-3">
+          <h2 class="text-center textShadow font-titulos mt-5">
             Algunos de nuestros productos
           </h2>
           <!-- Perros -->
           <div class="row">
-            <h4 class="shadow text-center mt-4">
-              Productos para
-              <a
-                class="link-underline link-underline-opacity-50 link-underline-opacity-100-hover text-dark"
+
+              <div class="position-relative contenedorTitulo my-4">
+                <img
+                  src="./img/contenedorTitulo/pexels-chevanon-1108099.jpg"
+                  alt=" imagen de gatitos para fondo de titulo"
+                  class="img-fluid"
+                />
+                <h3
+                  class="position-absolute top-50 start-50 translate-middle text-center  fs-1 subtituloCarousel"
+                >
+                <a
+                class="text-white text-decoration-none"
                 href="./pages/categoriaPerros.html"
-                >Perros</a
+                >PERROS</a
               >
-            </h4>
+                </h3>
+              </div>
 
             <div class="col-12 col-md-4 col-lg-3 mb-3">
               <div class="card h-100">
@@ -584,12 +618,12 @@
                 </div>
                 <div class="card-footer d-flex justify-content-between">
                   <a
-                    href="./pages/error404.html"
+                    href="./pages/detalleCarrito.html"
                     class="btn btn-outline-success"
                     >Comprar</a
                   >
                   <a
-                    href="./pages/error404.html"
+                    href="./pages/detalleProducto.html"
                     class="btn btn-outline-primary"
                     >Ver más</a
                   >
@@ -618,12 +652,12 @@
                 </div>
                 <div class="card-footer d-flex justify-content-between">
                   <a
-                    href="./pages/error404.html"
+                    href="./pages/detalleCarrito.html"
                     class="btn btn-outline-success"
                     >Comprar</a
                   >
                   <a
-                    href="./pages/error404.html"
+                    href="./pages/detalleProducto2.html"
                     class="btn btn-outline-primary"
                     >Ver más</a
                   >
@@ -652,12 +686,12 @@
                 </div>
                 <div class="card-footer d-flex justify-content-between">
                   <a
-                    href="./pages/error404.html"
+                    href="./pages/detalleCarrito.html"
                     class="btn btn-outline-success"
                     >Comprar</a
                   >
                   <a
-                    href="./pages/error404.html"
+                    href="./pages/detalleProducto3.html"
                     class="btn btn-outline-primary"
                     >Ver más</a
                   >
@@ -702,14 +736,22 @@
           </div>
           <!-- Gatos -->
           <div class="row">
-            <h4 class="shadow text-center mt-4">
-              Productos para
-              <a
-                class="link-underline link-underline-opacity-50 link-underline-opacity-100-hover text-dark"
-                href="./pages/categoriaPerros.html"
-                >Gatos</a
+            <div class="position-relative contenedorTitulo my-4">
+              <img
+                src="./img/contenedorTitulo/pexels-ezz7-979503.jpg"
+                alt=" imagen de gatitos para fondo de titulo"
+                class="img-fluid"
+              />
+              <h3
+                class="position-absolute top-50 start-50 translate-middle text-center  fs-1 subtituloCarousel"
               >
-            </h4>
+              <a
+              class="text-white text-decoration-none"
+              href="./pages/categoriaGatos.html"
+              >GATOS</a
+            >
+              </h3>
+            </div>
             <div class="col-12 col-md-4 col-lg-3 mb-3">
               <div class="card h-100">
                 <div class="card-header">
@@ -842,14 +884,22 @@
           </div>
           <!-- Aves -->
           <div class="row">
-            <h4 class="shadow text-center mt-4">
-              Productos para
-              <a
-                class="link-underline link-underline-opacity-50 link-underline-opacity-100-hover text-dark"
-                href="./pages/categoriaPerros.html"
-                >Aves</a
+            <div class="position-relative contenedorTitulo my-4">
+              <img
+                src="./img/contenedorTitulo/pexels-julius-weidenauer-296473414-13550346.jpg"
+                alt=" imagen de gatitos para fondo de titulo"
+                class="img-fluid"
+              />
+              <h3
+                class="position-absolute top-50 start-50 translate-middle text-center  fs-1 subtituloCarousel"
               >
-            </h4>
+              <a
+              class="text-white text-decoration-none"
+              href="./pages/categoriaAves.html"
+              >AVES</a
+            >
+              </h3>
+            </div>
             <div class="col-12 col-md-4 col-lg-3 mb-3">
               <div class="card h-100">
                 <div class="card-header">
@@ -981,14 +1031,22 @@
           </div>
           <!-- Peces -->
           <div class="row">
-            <h4 class="shadow text-center mt-4">
-              Productos para
-              <a
-                class="link-underline link-underline-opacity-50 link-underline-opacity-100-hover text-dark"
-                href="./pages/categoriaPerros.html"
-                >Peces</a
+            <div class="position-relative contenedorTitulo my-4">
+              <img
+                src="./img/contenedorTitulo/pexels-elletakesphotos-3513235.jpg"
+                alt=" imagen de gatitos para fondo de titulo"
+                class="img-fluid"
+              />
+              <h3
+                class="position-absolute top-50 start-50 translate-middle text-center  fs-1 subtituloCarousel"
               >
-            </h4>
+              <a
+              class="text-white text-decoration-none"
+              href="./pages/categoriaAves.html"
+              >PECES</a
+            >
+              </h3>
+            </div>
             <div class="col-12 col-md-4 col-lg-3 mb-3">
               <div class="card h-100">
                 <div class="card-header">
