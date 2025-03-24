@@ -119,6 +119,16 @@ body {
   margin: 0 auto;
   display: block;
 }
+
+
+.data{
+  width:100px;
+}
+.foto-tarjeta{
+  width: 40px;
+  height: 25px;
+}
+
 .desarrollador-foto {
   width: 200px;
   height: 200px;
