@@ -165,7 +165,33 @@
     <main class="colorDeFondoMain">
       <section class="container-fluid">
         <div class="row">
-          <div class="col-2 position-sticky top-0 vh-100 bg-light">
+          <!-- Menú en móviles (Títulos en línea) -->
+          <div
+            class="col-12 d-flex flex-wrap justify-content-center gap-2 menu-movil d-md-none mb-3"
+          >
+            <a href="#alimentos" class="btn btn-outline-warning text-dark"
+              >Alimentos</a
+            >
+            <a href="#bozales" class="btn btn-outline-danger text-dark"
+              >Bozales</a
+            >
+            <a href="#camas" class="btn btn-outline-success text-dark">Camas</a>
+            <a href="#higiene" class="btn btn-outline-info text-dark"
+              >Higiene</a
+            >
+            <a href="#juguetes" class="btn btn-outline-primary text-dark"
+              >Juguetes</a
+            >
+            <a href="#ropa" class="btn btn-outline-secondary text-dark">Ropa</a>
+            <a href="#salud" class="btn btn-outline-danger text-dark">Salud</a>
+            <a href="#transporte" class="btn btn-outline-info text-dark"
+              >Transporte</a
+            >
+          </div>
+          <!-- Menú lateral en pantallas grandes -->
+          <div
+            class="col-md-2 position-sticky top-0 vh-100 bg-light d-none d-md-block"
+          >
             <ul class="list-unstyled">
               <h6 class="mb-3 mt-5 text-info text-center">
                 ¿A DÓNDE QUIERES IR?
@@ -228,11 +254,11 @@
               </li>
             </ul>
           </div>
-          <div class="col-10">
+          <div class="col-12 col-md-10">
             <div class="row">
               <!-- Alimentos -->
               <div class="col-12">
-                <h2 id="alimentos">ALIMENTOS:</h2>
+                <h2 id="alimentos" class="espacio-titulo text-center">ALIMENTOS</h2>
                 <div class="row">
                   <div class="col-12 col-md-4 col-lg-3 mb-3">
                     <div class="card h-100">
@@ -670,7 +696,7 @@
               </div>
               <!-- Bozales -->
               <div class="col-12">
-                <h2 id="bozales">BOZALES:</h2>
+                <h2 id="bozales" class="espacio-titulo text-center">BOZALES</h2>
                 <div class="row">
                   <div class="col-12 col-md-4 col-lg-3 mb-3">
                     <div class="card h-100">
@@ -933,7 +959,7 @@
               </div>
               <!-- Camas -->
               <div class="col-12">
-                <h2 id="camas">CAMAS:</h2>
+                <h2 id="camas" class="espacio-titulo text-center">CAMAS</h2>
                 <div class="row">
                   <div class="col-12 col-md-4 col-lg-3 mb-3">
                     <div class="card h-100">
@@ -1164,7 +1190,7 @@
               </div>
               <!-- Higiene -->
               <div class="col-12">
-                <h2 id="higiene">Higiene:</h2>
+                <h2 id="higiene" class="espacio-titulo text-center">HIGIENE</h2>
                 <div class="row">
                   <div class="col-12 col-md-4 col-lg-3 mb-3">
                     <div class="card h-100">
@@ -1320,7 +1346,7 @@
               </div>
               <!-- Juguetes -->
               <div class="col-12">
-                <h2 id="juguetes">JUGUETES:</h2>
+                <h2 id="juguetes" class="espacio-titulo text-center">JUGUETES</h2>
                 <div class="row">
                   <div class="col-12 col-md-4 col-lg-3 mb-3">
                     <div class="card h-100">
@@ -1498,7 +1524,7 @@
               </div>
               <!-- Ropa y calzados -->
               <div class="col-12">
-                <h2 id="ropa">ROPA Y CALZADOS:</h2>
+                <h2 id="ropa" class="espacio-titulo text-center">ROPA Y CALZADOS</h2>
                 <div class="row">
                   <div class="col-12 col-md-4 col-lg-3 mb-3">
                     <div class="card h-100">
@@ -1757,7 +1783,7 @@
               </div>
               <!-- Salud -->
               <div class="col-12">
-                <h2 id="salud">SALUD:</h2>
+                <h2 id="salud" class="espacio-titulo text-center">SALUD</h2>
                 <div class="row">
                   <div class="col-12 col-md-4 col-lg-3 mb-3">
                     <div class="card h-100">
@@ -2181,7 +2207,7 @@
               </div>
               <!-- Transporte -->
               <div class="col-12">
-                <h2 id="transporte">TRANSPORTE:</h2>
+                <h2 id="transporte" class="espacio-titulo text-center">TRANSPORTE</h2>
                 <div class="row">
                   <div class="col-12 col-md-4 col-lg-3 mb-3">
                     <div class="card h-100">
