@@ -313,7 +313,9 @@ main {
 }
 
 .contenedorTitulo{
-  height: 60px;
+  height: 8rem;
+  width: 100%;
+  overflow: hidden;
 }
 
 
