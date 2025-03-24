@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="../css/style.css" />
     <title>Patitas Felices</title>
   </head>
-  <body class="contenedorbodycontacto colorDeFondoMain">
+  <body class="colorDeFondoMain">
     <header>
       <nav class="navbar navbar-expand-lg background-color text-white">
         <div class="container-fluid">
@@ -47,24 +47,21 @@
               class="navbar-nav me-auto mb-2 mb-lg-0 d-lg-flex align-items-lg-center"
             >
               <li class="nav-item">
-                <a
-                  class="nav-link focus"
-                  aria-current="page"
-                  href="../index.html"
+                <a class="nav-link color hoverNavbar" href="../index.html"
                   >Inicio</a
                 >
               </li>
               <li class="nav-item">
                 <a
                   class="nav-link color hoverNavbar"
-                  href="categoriaPerros.html"
+                  href="../pages/categoriaPerros.html"
                   >Perros</a
                 >
               </li>
               <li class="nav-item">
                 <a
                   class="nav-link color hoverNavbar"
-                  href="categoriaGatos.html"
+                  href="../pages/categoriaGatos.html"
                   >Gatos</a
                 >
               </li>
@@ -82,28 +79,28 @@
                   <li>
                     <a
                       class="dropdown-item hoverDropdawn color"
-                      href="categoriaAves.html"
+                      href="../pages/categoriaAves.html"
                       >Aves</a
                     >
                   </li>
                   <li>
                     <a
                       class="dropdown-item hoverDropdawn color"
-                      href="categoriaPeces.html"
+                      href="../pages/categoriaPeces.html"
                       >Peces</a
                     >
                   </li>
                   <li>
                     <a
                       class="dropdown-item hoverDropdawn color"
-                      href="categoriaInsectos.html"
+                      href="../pages/categoriaInsectos.html"
                       >Insectos</a
                     >
                   </li>
                   <li>
                     <a
                       class="dropdown-item hoverDropdawn color"
-                      href="categoriaTortugas.html"
+                      href="../pages/categoriaTortugas.html"
                       >Tortugas</a
                     >
                   </li>
@@ -123,13 +120,13 @@
                   <li>
                     <a
                       class="dropdown-item hoverDropdawn color"
-                      href="contacto.html"
+                      href="../pages/contacto.html"
                       >Contacto</a
                     >
                   </li>
                   <li>
                     <a
-                      class="dropdown-item hoverDropdawn color"
+                      class="dropdown-item nav-link hoverDropdawn color"
                       href="sobreNosotros.html"
                       >Sobre Nosotros</a
                     >
@@ -137,7 +134,7 @@
                   <li>
                     <a
                       class="dropdown-item hoverDropdawn color"
-                      href="preguntasFrecuentes.html"
+                      href="../pages/preguntasFrecuentes.html"
                       >Preguntas Frecuentes</a
                     >
                   </li>
@@ -146,13 +143,16 @@
               <li class="nav-item">
                 <a
                   class="nav-link color hoverNavbar"
-                  href="registro.html"
+                  href="../pages/registro.html"
                   >Registro</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link color hoverNavbar" href="login.html"
-                  >Iniciar Sesion</a
+                <a
+                  class="nav-link color hoverNavbar"
+                  aria-current="page"
+                  href="../pages/login.html"
+                  >Iniciar Sesión</a
                 >
               </li>
             </ul>
@@ -169,7 +169,7 @@
               <li class="nav-item">
                 <a
                   class="nav-link color-carrito hoverNavbar"
-                  href="detalleCarrito.html"
+                  href="../pages/detalleCarrito.html"
                   ><i class="bi bi-cart4 fs-4"></i
                 ></a>
               </li>
@@ -178,61 +178,179 @@
         </div>
       </nav>
     </header>
-    <main class="contactocontenedor fuenteMain colorDeFondoMain">
-        <section>
-          <article>
-            <h1 class="text-center">Contactanos</h1>
-            <div class="form-container">
-              <div class="form-box">
-                  <form class="formulariocontacto">
-                      <label class="labelcontacto" for="nombres">Nombres y apellidos:</label>
-                      <input class="inputtextareacontacto"
-                        type="text"
-                        minlength="9"
-                        maxlength="90"
-                        placeholder="Ej: Juan Manuel Torres"
-                        required
-                        id="nombres"
-                        required
-                      />
-                      <label class="labelcontacto" for="email">E-mail:</label>
-                      <input class="inputtextareacontacto"
-                        type="email"
-                        minlength="10"
-                        maxlength="90"
-                        id="email"
-                        placeholder="Ej: juanmanueltorres@gmail.com"
-                        required
-                      />
-                      <label class="labelcontacto" for="telefono">Telefono:</label>
-                      <input class="inputtextareacontacto"
-                        type="tel"
-                        id="telefono"
-                        placeholder="Ej: +54 9 381 782 9094"
-                        required
-                      />
-                      <label class="labelcontacto" for="mensaje">Mensaje:</label>
-                      <textarea class="inputtextareacontacto"
-                        id="mensaje"
-                        rows="5"
-                        placeholder="Ingrese un mensaje aqui"
-                        minlength="10"
-                        maxlength="250"
-                      ></textarea>
-                      <button type="submit" class="botoncontacto">Enviar</button>
+    <main>
+      <section
+        class="container my-5 w-75 text-secondary bg-light rounded-5 p-4"
+      >
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-6 my-4">
+            <div id="carouselProducto1" class="carousel slide">
+              <div class="carousel-inner border rounded-4">
+                <div class="carousel-item active">
+                  <img
+                    src="../img/productos/aves/jaulas/jaula castillo.jpg"
+                    class="d-block w-100 img-caruosel-producto"
+                    alt="jaula forma castillo"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="../img/productos/aves/jaulas/jaula de tres pisos.jpg"
+                    class="d-block w-100 h-100 img-caruosel-producto"
+                    alt="jaula de 3 pisos"
+                  />
+                </div>
               </div>
-              <div class="map-box">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.107271764479!2d-65.20835790541287!3d-26.836540196752054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses-419!2sar!4v1742470248500!5m2!1ses-419!2sar" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselProducto1"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon bg-info rounded-circle"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselProducto1"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon bg-info rounded-circle"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
+            <!-- <img
+                    src="../img/producto1.jpg"
+                    alt="alfombra de salida de litera"
+                    class="w-100 object-fit-cover"
+                  /> -->
+          </div>
+          <article class="col-12 col-md-6 col-lg-6 my-4">
+            <h3 class="">JAULA CASA</h3>
+            <p class="fs-2 fw-bolder text-dark-emphasis mt-3">$159.369</p>
+            <i class="bi bi-credit-card fs-3"></i>
+            <a
+              class="text-decoration-none mb-3 text-info"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#modalCrearCuenta"
+              >VER MEDIOS DE PAGO</a
+            >
+            <p class="border-top pt-3">CANTIDAD</p>
+            <div>
+              <select class="form-select w-auto">
+                <option selected>1</option>
+                <option value="1">2</option>
+                <option value="2">3</option>
+                <option value="3">4</option>
+              </select>
+            </div>
+            <a
+              href="../pages/detalleCarrito.html"
+              class="btn btn-info fw-bold mt-3 w-75 text-white"
+              >COMPRAR</a
+            >
+            <div class="border-top mt-3 pt-2 d-flex align-items-center">
+              <i class="bi bi-bag-check fs-4"></i>
+              <p class="fw-bold mb-0 ms-1">Compra protegida</p>
+            </div>
+            <p>Tus datos cuidados durante toda la compra.</p>
+            <div class="d-flex align-items-center">
+              <i class="bi bi-arrow-left-right fs-4"></i>
+              <p class="fw-bold mb-0 ms-1">Cambios y devoluciones</p>
+            </div>
+            <p>Si no te gusta, podés cambiarlo por otro o devolverlo.</p>
           </article>
-        </section>
-      </main>
+          <article class="col-12 my-5 pt-3 border-top">
+            <h5 class="text-center text-black">Detalle</h5>
+            <p class="mx-2 px-2 fs-5">
+              Esta jaula para aves en forma de casa es el refugio ideal para tu
+              mascota. Hecha con materiales resistentes y de alta calidad.
+            </p>
+          </article>
+          <article class="col-12 pt-3 border-top">
+            <h5 class="text-center text-black">Comentarios</h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item bg-light fst-italic">
+                <p>
+                  ⭐⭐⭐⭐"¡Esta jaula es perfecta para mi loro! Es espaciosa,
+                  segura y muy fácil de limpiar. A mi ave le encanta trepar por
+                  los barrotes y tiene suficiente espacio para moverse
+                  libremente. ¡La recomiendo totalmente!"
+                </p>
+              </li>
+              <li class="list-group-item bg-light fst-italic">
+                ⭐⭐⭐⭐⭐"Compré esta jaula para mis canarios y estoy muy
+                contento. El diseño es moderno y funcional, con bandejas
+                extraíbles que hacen la limpieza muy sencilla. Además, es muy
+                resistente y bien ventilada. ¡Mis aves están felices!"
+              </li>
+              <li class="list-group-item bg-light fst-italic">
+                ⭐⭐⭐⭐⭐"Excelente jaula para mi agaporni. Es amplia, bien
+                construida y tiene detalles que la hacen muy práctica, como los
+                comederos integrados y los accesorios incluidos. Mi pájaro se
+                adaptó rápidamente y parece muy cómodo. ¡Muy buena calidad!"
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+    <!-- Modal Medios de pago-->
+    <div
+      class="modal fade"
+      id="modalCrearCuenta"
+      tabindex="-1"
+      aria-labelledby="modalCrearCuentaLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5" id="modalCrearCuentaLabel">
+              Medios de pago y cuotas
+            </h2>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>Efectivo/Transferencia/Deposito</p>
+            <p class="fw-bold mb-5">25% de Descuento</p>
+            <p class="mb-3">Tarjetas 12 Cuotas sin Interés</p>
+            <img
+              src="../img/tarjetas-credito-logos.png"
+              alt="tarjetas de credito"
+              class="w-50"
+            />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Volver al producto
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer class="color-footer py-5">
       <div class="container">
         <div class="row align-items-start justify-content-center">
           <div class="col-12 col-lg-3 order-1">
-            <a href="./index.html">
+            <a href="../index.html">
               <img
                 src="../img/logo/Logo Monocromatico.png"
                 alt="Logo"
@@ -247,51 +365,51 @@
             <ul class="list-unstyled">
               <li>
                 <a
-                  href="sobreNosotros.html"
+                  href="../pages/sobreNosotros.html"
                   class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
-                  >sobre Nosotros</a
+                  >Sobre Nosotros</a
                 >
               </li>
               <li>
                 <a
-                  href="contacto.html"
+                  href="../pages/contacto.html"
                   class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
                   >Contactos</a
                 >
               </li>
               <li>
                 <a
-                  href="preguntasFrecuentes.html"
+                  href="../pages/preguntasFrecuentes.html"
                   class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
                   >Preguntas Frecuentes</a
                 >
               </li>
               <li>
                 <a
-                  href="error404.html"
+                  href="../pages/error404.html"
                   class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
                   >Iniciar Secion</a
                 >
               </li>
               <li>
                 <a
-                  href="registro.html"
+                  href="../pages/registro.html"
                   class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
                   >Registro</a
                 >
               </li>
               <li>
                 <a
-                  href="error404.html"
+                  href="../pages/error404.html"
                   class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
                   >Perros</a
                 >
               </li>
               <li>
                 <a
-                  href="error404.html"
+                  href="../pages/error404.html"
                   class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
-                  >gatos</a
+                  >Gatos</a
                 >
               </li>
             </ul>
@@ -301,16 +419,16 @@
           >
             <h4 class="mb-3 fs-3">Contacto</h4>
             <ul class="list-unstyled">
-              <li class="text-dark">
+              <li>
                 <a
-                  href="error404.html"
+                  href="../pages/error404.html"
                   class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
                   >Email: patitasfelices802@gmail.com
                 </a>
               </li>
               <li>
                 <a
-                  href="./error404.html"
+                  href="../pages/error404.html"
                   class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
                   >Teléfono: +54 3817776635</a
                 >
@@ -340,14 +458,14 @@
               <a
                 href="https://x.com/Patitas375"
                 target="_blank"
-                class="link-dark"
+                class="link-light"
               >
                 <i class="bi bi-twitter-x fs-2"></i>
               </a>
               <a
                 href="https://www.facebook.com/profile.php?id=61574572914434"
                 target="_blank"
-                class="link-primary"
+                class="link-light"
               >
                 <i class="bi bi-facebook fs-2"></i>
               </a>
