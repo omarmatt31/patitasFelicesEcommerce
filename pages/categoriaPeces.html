@@ -163,51 +163,71 @@
       </nav>
     </header>
     <main class="colorDeFondoMain">
-      <section class="container-fluid">
-        <div class="row">
-          <div class="col-2 position-sticky top-0 vh-100 bg-light">
-            <ul class="list-unstyled">
-              <h6 class="mb-3 mt-5 text-info text-center">
-                ¿A DÓNDE QUIERES IR?
-              </h6>
-              <li>
-                <a
-                  href="#alimentos"
-                  class="btn btn-outline-warning text-dark mb-2 w-100"
-                  >Alimentos</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#camas"
-                  class="btn btn-outline-success text-dark mb-2 w-100"
-                  >Camas</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#peceras"
-                  class="btn btn-outline-info text-dark mb-2 w-100"
-                  >Peceras</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#peces"
-                  class="btn btn-outline-primary text-dark mb-2 w-100"
-                  >Peces</a
-                >
-              </li>
-                <a
-                  href="#salud"
-                  class="btn btn-outline-danger text-dark mb-2 w-100"
-                  >Salud</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="col-10">
-            <div class="row">
+        <section class="container-fluid">
+          <div class="row">
+            <!-- Menú en móviles (Títulos en línea) -->
+            <div
+              class="col-12 d-flex flex-wrap justify-content-center gap-2 menu-movil d-md-none mb-3"
+            >
+              <a href="#alimentos" class="btn btn-outline-warning text-dark"
+                >Alimentos</a
+              >
+              <a href="#camas" class="btn btn-outline-success text-dark">Camas</a>
+
+              <a href="#peceras" class="btn btn-outline-primary text-dark"
+                >Peceras</a
+              >
+              <a href="#peces" class="btn btn-outline-secondary text-dark">Peces</a>
+
+              <a href="#salud" class="btn btn-outline-danger text-dark">Salud</a>
+            </div>
+            <!-- Menú lateral en pantallas grandes -->
+            <div
+              class="col-md-2 position-sticky top-0 vh-100 bg-light d-none d-md-block"
+            >
+              <ul class="list-unstyled">
+                <h6 class="mb-3 mt-5 text-info text-center">
+                  ¿A DÓNDE QUIERES IR?
+                </h6>
+                <li>
+                  <a
+                    href="#alimentos"
+                    class="btn btn-outline-warning text-dark mb-2 w-100"
+                    >Alimentos</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#camas"
+                    class="btn btn-outline-success text-dark mb-2 w-100"
+                    >Camas</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#peceras"
+                    class="btn btn-outline-info text-dark mb-2 w-100"
+                    >Peceras</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#peces"
+                    class="btn btn-outline-primary text-dark mb-2 w-100"
+                    >Peces</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#salud"
+                    class="btn btn-outline-danger text-dark mb-2 w-100"
+                    >Salud</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-10">
+              <div class="row">
               <!-- Alimentos -->
               <div class="col-12">
                 <h2 id="alimentos">ALIMENTOS:</h2>
