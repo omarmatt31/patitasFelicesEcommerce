@@ -197,12 +197,25 @@ body {
     bottom: 0; /*100px;*/
     left: 0; /*-400px;*/
   }
+
+  .img-caruosel-producto {
+    height: 250px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .img-caruosel-producto {
+    height: 510px;
+  }
 }
 
 @media (min-width: 992px) {
   .img-caruosel-patitas {
     height: 500px;
     object-position: 100% 50%;
+  }
+  .img-caruosel-producto {
+    height: 500px;
   }
 }
 
@@ -220,7 +233,7 @@ body {
 /* Clases Producto */
 .img-caruosel-producto {
   height: 500px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 /* clases de pageError404*/
@@ -236,6 +249,3 @@ body {
   font-family: "Pacifico", cursive;
   background: linear-gradient(to right, #a7c7e7, #b8e2c8, #f8c8c4, #fff4e6);  
 }
-
-
-
