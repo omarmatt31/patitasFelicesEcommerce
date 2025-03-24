@@ -289,7 +289,7 @@ main {
     height: 500px;
     object-position: 100% 50%;
   }
-
+  
   .img-caruosel-producto {
     height: 500px;
   }
@@ -344,3 +344,4 @@ main {
     scroll-margin-top: 90px;
   }
 }
+
