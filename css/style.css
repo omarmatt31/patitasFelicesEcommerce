@@ -374,6 +374,13 @@ main {
     scroll-margin-top: 90px;
   }
 }
+
+@media (min-width: 768px) {
+  .espacio-titulo {
+      scroll-margin-top: 0;
+    }
+}
+
 .card {
   height: 100%;
   display: flex;
