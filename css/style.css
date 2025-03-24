@@ -356,6 +356,9 @@ main {
   object-position: 100% 80%;
 }
 
+
+/*estilo para el menu movil*/
+
 .menu-movil {
   position: sticky;
   top: 0;
