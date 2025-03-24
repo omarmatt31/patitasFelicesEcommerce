@@ -195,11 +195,10 @@ main {
   display: block;
 }
 
-
-.data{
-  width:100px;
+.data {
+  width: 100px;
 }
-.foto-tarjeta{
+.foto-tarjeta {
   width: 40px;
   height: 25px;
 }
@@ -227,10 +226,10 @@ main {
   width: 100%;
   padding: 20px;
 }
-.data{
-  width:100px;
+.data {
+  width: 100px;
 }
-.foto-tarjeta{
+.foto-tarjeta {
   width: 40px;
   height: 25px;
 }
@@ -306,7 +305,7 @@ main {
     height: 500px;
     object-position: 100% 50%;
   }
-  
+
   .img-caruosel-producto {
     height: 500px;
   }
@@ -343,11 +342,13 @@ main {
   background: linear-gradient(to right, #a7c7e7, #b8e2c8, #f8c8c4, #fff4e6);
 }
 
+
 .contenedorTitulo{
   height: 8rem;
   width: 100%;
   overflow: hidden;
 }
+
 
 .contenedorTitulo img{
   width: 100%;
@@ -355,6 +356,7 @@ main {
   object-fit: cover;
   object-position: 100% 80%;
 }
+
 
 
 /*estilo para el menu movil*/
@@ -377,4 +379,3 @@ main {
     scroll-margin-top: 90px;
   }
 }
-
