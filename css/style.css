@@ -358,26 +358,25 @@ main {
 }
 
 .espacio-titulo {
-  scroll-margin-top: 140px;
+  scroll-margin-top: 190px;
 }
 
-@media (min-width: 425px) {
+@media (min-width: 375px) {
   .espacio-titulo {
-    scroll-margin-top: 90px;
+    scroll-margin-top: 145px;
   }
-}
-
-
-.lineaSombraInferior{
-  height: 1px;
-  background: none;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 @media (min-width: 768px) {
   .espacio-titulo {
       scroll-margin-top: 0;
     }
+}
+
+.lineaSombraInferior{
+  height: 1px;
+  background: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .card {
