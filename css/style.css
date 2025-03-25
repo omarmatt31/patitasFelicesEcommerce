@@ -100,6 +100,9 @@ main {
 .tipografia {
   font-family: "GloriaHallelujah", sans-serif;
 }
+.resize-none{
+  resize: none;
+}
 
 .titulo {
   background-color: #5079b4;
@@ -199,8 +202,8 @@ main {
   width: 100px;
 }
 .foto-tarjeta {
-  width: 40px;
-  height: 25px;
+  width: 45px;
+  height: 30px;
 }
 
 .desarrollador-foto {
@@ -324,7 +327,8 @@ main {
 
 /* Clases Producto */
 .img-caruosel-producto {
-  width: 500px;
+  max-width: 100%;
+  width: auto;
   object-fit: contain;
 }
 
