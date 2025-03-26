@@ -113,7 +113,6 @@ main {
   background-color: #007bff;
   border: none;
   border-radius: 5px;
-  color: white;
   cursor: pointer;
   margin-top: 15px;
   padding: 10px;
@@ -255,6 +254,10 @@ main {
   to {
     opacity: 1;
   }
+}
+
+.fs {
+  font-size: 150px;
 }
 
 /* Cards */
