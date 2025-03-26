@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Accesorios para mascotas de alta calidad a los mejores precios. Cama, juguetes, ropa y más para nuestras mascotas."
+    />
+    <meta
+      name="author"
+      content="Ana Sofia Cisterna, Ignacio Nazar, Ismael Isa, Marcos Joel Tebis, Omar Mattos, Tobias Conde"
+    />
+    <meta name="keywords" content="tienda, accesorios para mascotas, perros, gatos, aves, peces, Patitas Felices, ecommerce mascotas, alimentos, collares" />
+    <link rel="icon" type="imagen/png" href="../img/logo icon.png">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Patitas Felices</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg background-color text-white">
+        <div class="container-fluid">
+          <a class="navbar-brand color-gradient hoverMarca" href="../index.html"
+            >Patitas Felices</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav me-auto mb-2 mb-lg-0 d-lg-flex align-items-lg-center"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link color hoverNavbar"
+                  aria-current="page"
+                  href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link color hoverNavbar"
+                  href="./categoriaPerros.html"
+                  >Perros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link color hoverNavbar"
+                  href="./categoriaGatos.html"
+                  >Gatos</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle color hoverNavbar"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Otros
+                </a>
+                <ul class="dropdown-menu background-color">
+                  <li>
+                    <a
+                      class="dropdown-item hoverDropdawn hoverNavbar color"
+                      href="./categoriaAves.html"
+                      >Aves</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item hoverDropdawn hoverNavbar color focus"
+                      href="./categoriaPeces.html"
+                      >Peces</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle color hoverNavbar"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Información
+                </a>
+                <ul class="dropdown-menu background-color">
+                  <li>
+                    <a
+                      class="dropdown-item hoverDropdawn hoverNavbar color"
+                      href="./contacto.html"
+                      >Contacto</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item hoverDropdawn hoverNavbar color"
+                      href="./sobreNosotros.html"
+                      >Sobre Nosotros</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item hoverDropdawn hoverNavbar color"
+                      href="./preguntasFrecuentes.html"
+                      >Preguntas Frecuentes</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color hoverNavbar" href="./registro.html"
+                  >Registro</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color hoverNavbar" href="./login.html"
+                  >Iniciar Sesion</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-info" type="submit">Buscar</button>
+            </form>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link color-carrito hoverNavbar"
+                  href="./detalleCarrito.html"
+                  ><i class="bi bi-cart4 fs-4"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="colorDeFondoMain font-titulos">
+      <div class="position-relative contenedorTitulo d-none d-md-block">
+        <img
+          src="../img/contenedorTitulo/pexels-elletakesphotos-3513235.jpg"
+          alt=" imagen de peces en una pecera"
+          class="img-fluid d-none d-md-block"
+        />
+        <h3
+          class="position-absolute top-50 start-50 translate-middle text-center text-white fs-1 subtituloCarousel"
+        >
+          PECES
+        </h3>
+      </div>
+      <section class="container">
+        <div class="row">
+          <!-- Menú en móviles (Títulos en línea) -->
+          <div
+            class="col-12 d-flex flex-wrap justify-content-center gap-1 menu-movil d-md-none py-4"
+          >
+            <a href="#alimentos" class="btn btn-outline-warning text-dark"
+              >Alimentos</a
+            >
+            <a href="#camas y casas" class="btn btn-outline-success text-dark"
+              >Camas</a
+            >
+
+            <a href="#peceras" class="btn btn-outline-primary text-dark"
+              >Peceras</a
+            >
+            <a href="#peces" class="btn btn-outline-secondary text-dark"
+              >Peces</a
+            >
+
+            <a href="#salud" class="btn btn-outline-danger text-dark">Salud</a>
+          </div>
+          <!-- Menú lateral en pantallas grandes -->
+          <div class="col-md-2 position-sticky top-0 vh-100 d-none d-md-block">
+            <ul class="list-unstyled">
+              <h6 class="mb-3 mt-5 text-info text-center">
+                ¿A DÓNDE QUIERES IR?
+              </h6>
+              <li>
+                <a
+                  href="#alimentos"
+                  class="btn btn-outline-warning text-dark mb-2 w-100"
+                  >Alimentos</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#camas y casas"
+                  class="btn btn-outline-success text-dark mb-2 w-100"
+                  >Camas</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#peceras"
+                  class="btn btn-outline-info text-dark mb-2 w-100"
+                  >Peceras</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#peces"
+                  class="btn btn-outline-primary text-dark mb-2 w-100"
+                  >Peces</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#salud"
+                  class="btn btn-outline-danger text-dark mb-2 w-100"
+                  >Salud</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-10">
+            <div class="row">
+              <!-- Alimentos -->
+              <div class="col-12">
+                <h2 id="alimentos" class="espacio-titulo text-center my-4">
+                  ALIMENTOS
+                </h2>
+                <div class="row">
+                  <div class="col-12 col-md-6 col-lg-3 mb-3">
+                    <div class="card">
+                      <div class="card-header">
+                        <h5 class="card-title text-center">Gold fish flakes</h5>
+                      </div>
+                      <img
+                        src="../img/productos/peces/alimentos/goldfish flakes.jpg"
+                        class="card-img-top"
+                        alt="Alimentos para peces dorados gold fish flakes marca tetra"
+                      />
+                      <div class="card-body">
+                        <p class="card-text">
+                          Los copos de alimento para peces Goldfish son una
+                          comida formulada específicamente para satisfacer las
+                          necesidades nutricionales de estos peces, diseñados
+                          para flotar y facilitar su alimentación.
+                        </p>
+                        <p>Precio: <strong>$5.499 ARS</strong></p>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-success"
+                          >Comprar</a
+                        >
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-primary"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-6 col-lg-3 mb-3">
+                    <div class="card">
+                      <div class="card-header">
+                        <h5 class="card-title text-center">Gold Fish</h5>
+                      </div>
+                      <img
+                        src="../img/productos/peces/alimentos/goldfish.webp"
+                        class="card-img-top"
+                        alt="Alimento para peces dorados gold fish marca tetra"
+                      />
+                      <div class="card-body">
+                        <p class="card-text">
+                          Los copos de alimento Goldfish son un alimento
+                          flotante diseñado para proporcionar una nutrición
+                          completa a los goldfish, favoreciendo su crecimiento y
+                          salud.
+                        </p>
+                        <p>Precio: <strong>$2.249 ARS</strong></p>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-success"
+                          >Comprar</a
+                        >
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-primary"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-6 col-lg-3 mb-3">
+                    <div class="card">
+                      <div class="card-header">
+                        <h5 class="card-title text-center">Pond sticks</h5>
+                      </div>
+                      <img
+                        src="../img/productos/peces/alimentos/pond sticks.jpg"
+                        class="card-img-top"
+                        alt="alimento para peces dorados y kois marca tetra"
+                      />
+                      <div class="card-body">
+                        <p class="card-text">
+                          Alimento nutritivo y valanceado para peces dorados y
+                          peces koi. Ideal para estances con capacidad de
+                          flotabilidad para mayor facilidad de igerir.
+                        </p>
+                        <p>Precio: <strong>$10.000 ARS</strong></p>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-success"
+                          >Comprar</a
+                        >
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-primary"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-6 col-lg-3 mb-3">
+                    <div class="card">
+                      <div class="card-header">
+                        <h5 class="card-title text-center">Shulet carrasius</h5>
+                      </div>
+                      <img
+                        src="../img/productos/peces/alimentos/shulet carassius.png"
+                        class="card-img-top"
+                        alt="alimento para peces dorados shulet"
+                      />
+                      <div class="card-body">
+                        <p class="card-text">
+                          Ideal para principiantes, Shulet Carassius ofrece los
+                          nutrientes necesarios para mantener a tus peces
+                          dorados sanos y con escamas fuertes. Este alimento de
+                          alta calidad promueve un crecimiento óptimo y
+                          contribuye a la salud general de tus peces, asegurando
+                          un acuario limpio y vibrante.
+                        </p>
+                        <p>Precio: <strong>$4.099 ARS</strong></p>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-success"
+                          >Comprar</a
+                        >
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-primary"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-6 col-lg-3 mb-3">
+                    <div class="card">
+                      <div class="card-header">
+                        <h5 class="card-title text-center">Shulet Tropical</h5>
+                      </div>
+                      <img
+                        src="../img/productos/peces/alimentos/shulet tropical.webp"
+                        class="card-img-top"
+                        alt="alimento para peces tropicales shulet"
+                      />
+                      <div class="card-body">
+                        <p class="card-text">
+                          Una mezcla nutritiva formulada específicamente para
+                          satisfacer las necesidades dietéticas de peces de agua
+                          dulce tropicales. Este alimento suele contener
+                          proteínas de alta calidad, vitaminas y minerales,
+                          promoviendo un crecimiento saludable y colores
+                          vibrantes
+                        </p>
+                        <p>Precio: <strong>$4.999 ARS</strong></p>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-success"
+                          >Comprar</a
+                        >
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-primary"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-6 col-lg-3 mb-3">
+                    <div class="card">
+                      <div class="card-header">
+                        <h5 class="card-title text-center">Super flakes</h5>
+                      </div>
+                      <img
+                        src="../img/productos/peces/alimentos/super flakes.jpg"
+                        class="card-img-top"
+                        alt="alimento para peces tropicales marca super flakes"
+                      />
+                      <div class="card-body">
+                        <p class="card-text">
+                          Alimento ideal para peces tropicales de agua dulce,
+                          proporciona los nutrientes y vitaminas suficientea
+                          para un crecimie optimo y colores brillantes.
+                        </p>
+                        <p>Precio: <strong>$5.999 ARS</strong></p>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-success"
+                          >Comprar</a
+                        >
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-primary"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-6 col-lg-3 mb-3">
+                    <div class="card">
+                      <div class="card-header">
+                        <h5 class="card-title text-center">Vitafish</h5>
+                      </div>
+                      <img
+                        src="../img/productos/peces/alimentos/vitafish.jpg"
+                        class="card-img-top"
+                        alt="Alimento para peces tropicales vitafish"
+                      />
+                      <div class="card-body">
+                        <p class="card-text">
+                          El alimento Vitafish para peces tropicales está
+                          formulado con ingredientes de alta calidad que
+                          proporcionan proteínas, vitaminas y minerales
+                          esenciales. Ideal para diversas especies de agua
+                          dulce, este alimento promueve un crecimiento saludable
+                          y colores vibrante.
+                        </p>
+                        <p>Precio: <strong>$4.900 ARS</strong></p>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-success"
+                          >Comprar</a
+                        >
+                        <a
+                          href="../pages/error404.html"
+                          class="btn btn-outline-primary"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Camas -->
+            <div class="col-12">
+              <h2 id="camas y casas" class="espacio-titulo text-center my-4">
+                CAMAS Y CASAS
+              </h2>
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                  <div class="card">
+                    <div class="card-header">
+                      <h5 class="card-title text-center">Cubetle</h5>
+                    </div>
+                    <img
+                      src="../img/productos/peces/camas/cama de hojas arificiales.jpg"
+                      class="card-img-top"
+                      alt="cama de hojas artificiales para peces"
+                    />
+                    <div class="card-body">
+                      <p>Precio: <strong>$5.500 ARS</strong></p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-success"
+                        >Comprar</a
+                      >
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-primary"
+                        >Ver más</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                  <div class="card">
+                    <div class="card-header">
+                      <h5 class="card-title text-center">Cama de hoja</h5>
+                    </div>
+                    <img
+                      src="../img/productos/peces/camas/712TFgoLPJL._AC_UF1000,1000_QL80_.jpg"
+                      class="card-img-top"
+                      alt="cama de hojas artificiales para peces"
+                    />
+                    <div class="card-body">
+                      <p>Precio: <strong>$6.000 ARS</strong></p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-success"
+                        >Comprar</a
+                      >
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-primary"
+                        >Ver más</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                  <div class="card">
+                    <div class="card-header">
+                      <h5 class="card-title text-center">
+                        Casa de bob esponja
+                      </h5>
+                    </div>
+                    <img
+                      src="../img/productos/peces/camas/D_716025-MLA75441839698_042024-O.jpg"
+                      class="card-img-top"
+                      alt="cama de hojas artificiales para peces"
+                    />
+                    <div class="card-body">
+                      <p>Precio: <strong>$9.000 ARS</strong></p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-success"
+                        >Comprar</a
+                      >
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-primary"
+                        >Ver más</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                  <div class="card">
+                    <div class="card-header">
+                      <h5 class="card-title text-center">Casa de madera</h5>
+                    </div>
+                    <img
+                      src="../img/productos/peces/camas/D_Q_NP_2X_863188-CBT81337463639_122024-T.webp"
+                      class="card-img-top"
+                      alt="cama de hojas artificiales para peces"
+                    />
+                    <div class="card-body">
+                      <p>Precio: <strong>$9.000 ARS</strong></p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-success"
+                        >Comprar</a
+                      >
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-primary"
+                        >Ver más</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- PECERAS -->
+            <div class="col-12">
+              <h2 id="peceras" class="espacio-titulo text-center my-4">
+                PECERAS
+              </h2>
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                  <div class="card">
+                    <div class="card-header">
+                      <h5 class="card-title text-center">Pecera cilindrica</h5>
+                    </div>
+                    <img
+                      src="../img/productos/peces/peceras/pecera cilindrica pequeña.jpg"
+                      class="card-img-top"
+                      alt="Pecera de forma cilindrica"
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        Pecera cilindrica para decoracion y acuarion pequeños.
+                      </p>
+                      <p>Precio: <strong>$25.000 ARS</strong></p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-success"
+                        >Comprar</a
+                      >
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-primary"
+                        >Ver más</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                  <div class="card">
+                    <div class="card-header">
+                      <h5 class="card-title text-center">Pecera grande</h5>
+                    </div>
+                    <img
+                      src="../img/productos/peces/peceras/pecera grande.jpg"
+                      class="card-img-top"
+                      alt="Pecera grande"
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        Pecera de grande para ecosistemas mas avanzados.
+                      </p>
+                      <p>Precio: <strong>$33.750 ARS</strong></p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-success"
+                        >Comprar</a
+                      >
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-primary"
+                        >Ver más</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                  <div class="card">
+                    <div class="card-header">
+                      <h5 class="card-title text-center">Pecera con filtro</h5>
+                    </div>
+                    <img
+                      src="../img/productos/peces/peceras/pecera mediana.webp"
+                      class="card-img-top"
+                      alt="Pecera mediana con filtro incluido"
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        Pecera mediana con un filtro incluido para la
+                        purificacion del agua.
+                      </p>
+                      <p>Precio: <strong>$20.000 ARS</strong></p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-success"
+                        >Comprar</a
+                      >
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-primary"
+                        >Ver más</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                  <div class="card">
+                    <div class="card-header">
+                      <h5 class="card-title text-center">Pecera redonda</h5>
+                    </div>
+                    <img
+                      src="../img/productos/peces/peceras/pecera redonda pequeña.jpg"
+                      class="card-img-top"
+                      alt="Pecera redonda"
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        Pecera clasica redonda ideal para iniciar.
+                      </p>
+                      <p>Precio: <strong>$15.000 ARS</strong></p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-success"
+                        >Comprar</a
+                      >
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-primary"
+                        >Ver más</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Peces -->
+            <div class="col-12">
+              <h2 id="peces" class="espacio-titulo text-center my-4">PECES</h2>
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                  <div class="card">
+                    <div class="card-header">
+                      <h5 class="card-title text-center">Pez angel</h5>
+                    </div>
+                    <img
+                      src="../img/productos/peces/peces/pez angel.jpg"
+                      class="card-img-top"
+                      alt="producto- pez angel"
+                    />
+                    <div class="card-body">
+                      <p>Precio: <strong>$5.000 ARS</strong></p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-success"
+                        >Comprar</a
+                      >
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-primary"
+                        >Ver más</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                  <div class="card">
+                    <div class="card-header">
+                      <h5 class="card-title text-center">Pez betta</h5>
+                    </div>
+                    <img
+                      src="../img/productos/peces/peces/pez betta.jpg"
+                      class="card-img-top"
+                      alt="Producto- pez betta"
+                    />
+                    <div class="card-body">
+                      <p>Precio: <strong>$9.000 ARS</strong></p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-success"
+                        >Comprar</a
+                      >
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-primary"
+                        >Ver más</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                  <div class="card">
+                    <div class="card-header">
+                      <h5 class="card-title text-center">Pez cebra</h5>
+                    </div>
+                    <img
+                      src="../img/productos/peces/peces/pez cebra.jpg"
+                      class="card-img-top"
+                      alt="Producto - pez cebra"
+                    />
+                    <div class="card-body">
+                      <p>Precio: <strong>$1.000 ARS</strong></p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-success"
+                        >Comprar</a
+                      >
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-primary"
+                        >Ver más</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                  <div class="card">
+                    <div class="card-header">
+                      <h5 class="card-title text-center">Corydora paleatus</h5>
+                    </div>
+                    <img
+                      src="../img/productos/peces/peces/pez corydora paleatus.jpg"
+                      class="card-img-top"
+                      alt="Producto - corydora paleatus"
+                    />
+                    <div class="card-body">
+                      <p>Precio: <strong>$1.000 ARS</strong></p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-success"
+                        >Comprar</a
+                      >
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-primary"
+                        >Ver más</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                  <div class="card">
+                    <div class="card-header">
+                      <h5 class="card-title text-center">Pez guppy</h5>
+                    </div>
+                    <img
+                      src="../img/productos/peces/peces/pez guppy.jpg"
+                      class="card-img-top"
+                      alt="Producto - pez guppy"
+                    />
+                    <div class="card-body">
+                      <p>Precio: <strong>$3.500 ARS</strong></p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-success"
+                        >Comprar</a
+                      >
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-primary"
+                        >Ver más</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                  <div class="card">
+                    <div class="card-header">
+                      <h5 class="card-title text-center">Pez molly</h5>
+                    </div>
+                    <img
+                      src="../img/productos/peces/peces/pez molly negro.jpg"
+                      class="card-img-top"
+                      alt="Producto - pez molly"
+                    />
+                    <div class="card-body">
+                      <p>Precio: <strong>$2.000 ARS</strong></p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-success"
+                        >Comprar</a
+                      >
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-primary"
+                        >Ver más</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                  <div class="card">
+                    <div class="card-header">
+                      <h5 class="card-title text-center">Pez ramirezi</h5>
+                    </div>
+                    <img
+                      src="../img/productos/peces/peces/pez ramirezi.jpg"
+                      class="card-img-top"
+                      alt="Producto - pez ramirezi"
+                    />
+                    <div class="card-body">
+                      <p>Precio: <strong>$5.000 ARS</strong></p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-success"
+                        >Comprar</a
+                      >
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-primary"
+                        >Ver más</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                  <div class="card">
+                    <div class="card-header">
+                      <h5 class="card-title text-center">Pez tetra</h5>
+                    </div>
+                    <img
+                      src="../img/productos/peces/peces/pez tetra.jpg"
+                      class="card-img-top"
+                      alt="juegue para perro en forma de pato con sonido"
+                    />
+                    <div class="card-body">
+                      <p>Precio: <strong>$1.000 ARS</strong></p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-success"
+                        >Comprar</a
+                      >
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-primary"
+                        >Ver más</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Salud -->
+            <div class="col-12">
+              <h2 id="salud" class="espacio-titulo text-center my-4">SALUD:</h2>
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                  <div class="card">
+                    <div class="card-header">
+                      <h5 class="card-title text-center">Betta fix</h5>
+                    </div>
+                    <img
+                      src="../img/productos/peces/salud/betta fix.jpg"
+                      class="card-img-top"
+                      alt="Producto - Suplemento alimenticio para peces betta"
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        Producto de salud acuática diseñado específicamente para
+                        el tratamiento de peces betta y otros peces
+                        ornamentales.
+                      </p>
+                      <p>Precio: <strong>$10.000 ARS</strong></p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-success"
+                        >Comprar</a
+                      >
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-primary"
+                        >Ver más</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                  <div class="card">
+                    <div class="card-header">
+                      <h5 class="card-title text-center">Cupramine</h5>
+                    </div>
+                    <img
+                      src="../img/productos/peces/salud/cupramine.jpg"
+                      class="card-img-top"
+                      alt="Producto- desparacitador"
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        medicamento utilizado en acuarios para el tratamiento de
+                        enfermedades parasitarias en peces.
+                      </p>
+                      <p>Precio: <strong>$12.000 ARS</strong></p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-success"
+                        >Comprar</a
+                      >
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-primary"
+                        >Ver más</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                  <div class="card">
+                    <div class="card-header">
+                      <h5 class="card-title text-center">Kanaplex</h5>
+                    </div>
+                    <img
+                      src="../img/productos/peces/salud/kanaplex.jpg"
+                      class="card-img-top"
+                      alt="Producto - desinfectante"
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        Medicamento utilizado en acuarios para tratar diversas
+                        infecciones bacterianas en peces ornamentales.
+                      </p>
+                      <p>Precio: <strong>$12.700 ARS</strong></p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-success"
+                        >Comprar</a
+                      >
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-primary"
+                        >Ver más</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                  <div class="card">
+                    <div class="card-header">
+                      <h5 class="card-title text-center">Paraguard</h5>
+                    </div>
+                    <img
+                      src="../img/productos/peces/salud/paraguard.jpg"
+                      class="card-img-top"
+                      alt="Producto - tratamiento y prevencion de enfermedades"
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        Medicamento utilizado en acuarios para el tratamiento y
+                        prevención de enfermedades en peces ornamentales.
+                      </p>
+                      <p>Precio: <strong>$15.000 ARS</strong></p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-success"
+                        >Comprar</a
+                      >
+                      <a
+                        href="../pages/error404.html"
+                        class="btn btn-outline-primary"
+                        >Ver más</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="color-footer py-5">
+      <div class="container">
+        <div class="row align-items-start justify-content-center">
+          <div class="col-12 col-lg-3 order-1">
+            <a href="../index.html">
+              <img
+                src="../img/logo/Logo Monocromatico.png"
+                alt="Logo"
+                class="img-fluid footer-logo mb-4"
+              />
+            </a>
+          </div>
+          <article
+            class="col-12 col-md-4 col-lg-3 text-center text-light text-md-start order-2"
+          >
+            <h4 class="mb-3 fs-3">Navegación</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="./sobreNosotros.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Sobre Nosotros</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./contacto.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Contactos</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./preguntasFrecuentes.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Preguntas Frecuentes</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./login.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Iniciar Sesión</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./registro.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Registro</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./categoriaPerros.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Perros</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./categoriaGatos.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  >Gatos</a
+                >
+              </li>
+            </ul>
+          </article>
+          <article
+            class="col-12 col-md-4 col-lg-3 text-center text-light text-md-start order-2"
+          >
+            <h4 class="mb-3 fs-3">Contacto</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="mailto:patitasfelices802@gmail.com"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  ><i class="bi bi-envelope-fill"></i>
+                  patitasfelices802@gmail.com
+                </a>
+              </li>
+              <li>
+                <a
+                  href="tel:+543817776635"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  ><i class="bi bi-telephone-fill"></i> +54 3817776635</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://maps.app.goo.gl/WMN9dBK8oFT5Uo4i6"
+                  target="_blank"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  ><i class="bi bi-geo-alt-fill"></i> San Miguel de Tucuman- Av.
+                  Brígido Terán 127</a
+                >
+              </li>
+            </ul>
+          </article>
+          <article
+            class="col-12 col-md-4 col-lg-3 text-light text-center order-2"
+          >
+            <h4 class="mb-3 fs-3">Síguenos en:</h4>
+            <ul class="list-unstyled d-flex justify-content-center gap-4">
+              <li>
+                <a
+                  href="https://www.instagram.com/patitas.felicesoficial/"
+                  target="_blank"
+                >
+                  <i class="bi bi-instagram link-light fs-2"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://x.com/Patitas375" target="_blank">
+                  <i class="bi bi-twitter-x link-light fs-2"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/profile.php?id=61574572914434"
+                  target="_blank"
+                >
+                  <i class="bi bi-facebook link-light fs-2"></i>
+                </a>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row my-5">
+          <div class="col-12 col-md-3 mb-3">
+            <h2 class="text-light text-center">Métodos de Pago</h2>
+          </div>
+          <div class="col-12 col-md-7 mb-3">
+            <div class="d-flex flex-wrap justify-content-center gap-3">
+              <img
+                src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/mercadopago@2x.png"
+                alt="Mercado Pago"
+              />
+              <img
+                src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/visa@2x.png"
+                alt="Visa"
+              />
+              <img
+                src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/mastercard@2x.png"
+                alt="Mastercard"
+              />
+              <img
+                src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/amex@2x.png"
+                alt="Amex"
+              />
+              <img
+                src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/diners@2x.png"
+                alt="Diners"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-md-2 text-center text-md-end">
+            <a href="https://www.afip.gob.ar" target="_blank">
+              <img
+                src="https://www.afip.gob.ar/images/f960/DATAWEB.jpg"
+                alt="Data Fiscal AFIP"
+                class="img-fluid data"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
